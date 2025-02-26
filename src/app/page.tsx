@@ -14,17 +14,13 @@ interface Recipe {
 
 export default function Home() {
     const [recipes, setRecipes] = useState<Recipe[]>([]);
-    const UNSPLASH_API_KEY = "RhBafaRTeb8e-rCa-7CtTM0lIRJqwnotNX0tixtiKjY"
-    async function fetchRecipeImage(recipeTitle: string): Promise<string> {
+
+    async function loadRecipeImage(recipeId: number): Promise<string> {
         try {
-            const response = await fetch(
-                `https://api.unsplash.com/search/photos?query=${encodeURIComponent(recipeTitle)}&client_id=${UNSPLASH_API_KEY}&per_page=1`
-            );
-            const data = await response.json();
-            return data.results.length > 0 ? data.results[0].urls.small : "/placeholder.jpg";
+            return "/recipes/" + recipeId.toString() + ".png";
         } catch (error) {
             console.error("Error fetching image:", error);
-            return "/placeholder.jpg"; // Fallback image
+            return "/placeholder.jpg";
         }
     }
 
@@ -37,7 +33,7 @@ export default function Home() {
             const updatedRecipes = await Promise.all(
                 data.map(async (recipe) => ({
                     ...recipe,
-                    image: await fetchRecipeImage(recipe.name),
+                    image: await loadRecipeImage(recipe.id),
                 }))
             );
             setRecipes(updatedRecipes);
