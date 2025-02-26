@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "Wok kylling",
+    "description": "Wok with chicken and vegetables.",
+    "ingredients": ["Chicken", "Vegetables", "Soy sauce", "Noodles"],
+    "instructions": "Cook the chicken, add vegetables, stir-fry with soy sauce, and serve."
+  },
+  {
+    "id": 2,
+    "name": "Laks, salat med fetaost, blomkålris",
+    "description": "Grilled salmon with feta salad and cauliflower rice.",
+    "ingredients": ["Salmon", "Feta cheese", "Salad", "Cauliflower rice"],
+    "instructions": "Grill the salmon, mix salad with feta cheese, and serve with cauliflower rice."
+  },
+  {
+    "id": 3,
+    "name": "Cæsarsalat",
+    "description": "Caesar salad with chicken and croutons.",
+    "ingredients": ["Lettuce", "Chicken", "Croutons", "Parmesan", "Caesar dressing"],
+    "instructions": "Mix lettuce, chicken, and dressing, then top with parmesan and croutons."
+  },
+  {
+    "id": 4,
+    "name": "Bakt hvit fisk, gulrot, potet, smør",
+    "description": "Baked white fish with carrots, potatoes, and butter.",
+    "ingredients": ["White fish", "Carrot", "Potato", "Butter"],
+    "instructions": "Bake the fish, boil the carrots and potatoes, and serve with melted butter."
+  },
+  {
+    "id": 5,
+    "name": "Lasagne, agurksalat, brød",
+    "description": "Lasagna with cucumber salad and bread.",
+    "ingredients": ["Lasagna sheets", "Ground beef", "Tomato sauce", "Cheese", "Cucumber", "Bread"],
+    "instructions": "Prepare lasagna with meat sauce and cheese, bake, and serve with cucumber salad and bread."
+  },
+  {
+    "id": 6,
+    "name": "Dumplings (steamed)",
+    "description": "Steamed dumplings with soy sauce.",
+    "ingredients": ["Dumplings", "Soy sauce", "Ginger"],
+    "instructions": "Steam the dumplings for 10-15 minutes and serve with soy sauce."
+  },
+  {
+    "id": 7,
+    "name": "Ramen",
+    "description": "Japanese noodle soup with broth and egg.",
+    "ingredients": ["Noodles", "Chicken broth", "Egg", "Mushroom", "Spring onions"],
+    "instructions": "Cook ramen noodles in broth, add egg and vegetables, and serve hot."
+  },
+  {
+    "id": 8,
+    "name": "Tiktok pasta, kylling",
+    "description": "Baked feta pasta with cherry tomatoes and chicken.",
+    "ingredients": ["Pasta", "Chicken", "Feta cheese", "Tomatoes"],
+    "instructions": "Roast feta and tomatoes, mix with pasta and grilled chicken."
+  },
+  {
+    "id": 9,
+    "name": "Fiskesuppe",
+    "description": "Creamy fish soup with vegetables.",
+    "ingredients": ["Fish", "Carrot", "Leek", "Cream"],
+    "instructions": "Cook fish in broth with vegetables, add cream, and serve hot."
+  },
+  {
+    "id": 10,
+    "name": "Kremet pasta, kylling, sopp",
+    "description": "Creamy pasta with chicken and mushrooms.",
+    "ingredients": ["Pasta", "Chicken", "Mushrooms", "Cream"],
+    "instructions": "Sauté chicken and mushrooms, add cream, and mix with pasta."
+  },
+  {
+    "id": 11,
+    "name": "Fiskeboller, hvit saus",
+    "description": "Fish dumplings in white sauce.",
+    "ingredients": ["Fish dumplings", "Milk", "Butter", "Flour"],
+    "instructions": "Prepare a white sauce, add fish dumplings, and serve warm."
+  },
+  {
+    "id": 12,
+    "name": "Panert fisk, ertestuing, stekt potet",
+    "description": "Breaded fish with mashed peas and fried potatoes.",
+    "ingredients": ["Fish", "Breadcrumbs", "Peas", "Potatoes"],
+    "instructions": "Bread and fry the fish, make mashed peas, and serve with fried potatoes."
+  },
+  {
+    "id": 13,
+    "name": "Koteletter, ovnsstekte grønnsaker",
+    "description": "Pork chops with oven-roasted vegetables.",
+    "ingredients": ["Pork chops", "Bell peppers", "Carrots", "Onion"],
+    "instructions": "Season the pork chops and roast with vegetables in the oven."
+  },
+  {
+    "id": 14,
+    "name": "Pizza med fyll (kaldhevet)",
+    "description": "Cold-fermented pizza with tomato sauce and cheese.",
+    "ingredients": ["Flour", "Yeast", "Tomato sauce", "Cheese", "Toppings"],
+    "instructions": "Prepare the dough, let it rise overnight, add toppings, and bake."
+  },
+  {
+    "id": 15,
+    "name": "Laks med mangosalat og creme fraiche",
+    "description": "Salmon with mango salad and crème fraîche.",
+    "ingredients": ["Salmon", "Mango", "Creme fraiche"],
+    "instructions": "Grill the salmon, prepare the mango salad, and serve with crème fraîche."
+  },
+  {
+    "id": 16,
+    "name": "Linsegryte med karri og revet kylling",
+    "description": "Lentil curry with shredded chicken.",
+    "ingredients": ["Lentils", "Chicken", "Curry", "Coconut milk"],
+    "instructions": "Cook lentils with curry and coconut milk, then add shredded chicken."
+  },
+  {
+    "id": 17,
+    "name": "Kjøttgryte med grønnsaker",
+    "description": "Hearty beef stew with vegetables.",
+    "ingredients": ["Beef", "Carrots", "Potatoes", "Onion"],
+    "instructions": "Cook beef and vegetables together until tender."
+  },
+  {
+    "id": 18,
+    "name": "Hjemmelagde kjøttboller, potetmos og stekt brokkolini",
+    "description": "Homemade meatballs with mashed potatoes and broccolini.",
+    "ingredients": ["Ground beef", "Potatoes", "Broccolini"],
+    "instructions": "Make meatballs, cook mashed potatoes, and sauté broccolini."
+  },
+  {
+    "id": 19,
+    "name": "Grillet kylling og paprika med kremostfyll",
+    "description": "Grilled chicken with stuffed bell peppers.",
+    "ingredients": ["Chicken", "Bell peppers", "Cream cheese"],
+    "instructions": "Stuff bell peppers with cream cheese and grill with chicken."
+  },
+  {
+    "id": 20,
+    "name": "Fylt paprika",
+    "description": "Stuffed bell peppers with meat and rice.",
+    "ingredients": ["Bell peppers", "Ground beef", "Rice"],
+    "instructions": "Fill peppers with meat and rice, then bake."
+  },
+  {
+    "id": 21,
+    "name": "Grillet kylling, waldorfsalat, stekte poteter",
+    "description": "Grilled chicken with Waldorf salad and roasted potatoes.",
+    "ingredients": ["Chicken", "Apple", "Celery", "Walnuts", "Potatoes"],
+    "instructions": "Grill the chicken, make Waldorf salad, and roast the potatoes."
+  },
+  {
+    "id": 22,
+    "name": "Baconsurra kylling med ostefyll",
+    "description": "Bacon-wrapped chicken with cheese filling.",
+    "ingredients": ["Chicken", "Bacon", "Cheese"],
+    "instructions": "Stuff chicken with cheese, wrap in bacon, and bake."
+  },
+  {
+    "id": 23,
+    "name": "Eggepizza",
+    "description": "Low-carb egg-based pizza.",
+    "ingredients": ["Eggs", "Cheese", "Tomato sauce"],
+    "instructions": "Make an egg base, add toppings, and bake."
+  },
+  {
+    "id": 24,
+    "name": "Bakt søtpotet med grønnsaker",
+    "description": "Baked sweet potato with vegetables.",
+    "ingredients": ["Sweet potato", "Vegetables"],
+    "instructions": "Bake sweet potatoes and serve with vegetables."
+  },
+  {
+    "id": 25,
+    "name": "Marry Me Chicken",
+    "description": "Creamy chicken with sun-dried tomatoes.",
+    "ingredients": ["Chicken", "Sun-dried tomatoes", "Cream"],
+    "instructions": "Cook chicken in a creamy sauce with sun-dried tomatoes."
+  }
+]
