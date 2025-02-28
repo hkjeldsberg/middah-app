@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Wok kylling",
+    "name": "Wok med Kylling",
     "description": "Wok with chicken and vegetables.",
     "ingredients": [
       "Chicken",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "name": "Laks, salat med fetaost, blomkålris",
+    "name": "Stekt Laks med Feta-salat",
     "description": "Grilled salmon with feta salad and cauliflower rice.",
     "ingredients": [
       "Salmon",
@@ -38,7 +38,7 @@
   },
   {
     "id": 4,
-    "name": "Bakt hvit fisk, gulrot, potet, smør",
+    "name": "Bakt Kveite med Grønnsaker",
     "description": "Baked white fish with carrots, potatoes, and butter.",
     "ingredients": [
       "White fish",
@@ -50,7 +50,7 @@
   },
   {
     "id": 5,
-    "name": "Lasagne, agurksalat, brød",
+    "name": "Lasagne",
     "description": "Lasagna with cucumber salad and bread.",
     "ingredients": [
       "Lasagna sheets",
@@ -64,7 +64,7 @@
   },
   {
     "id": 6,
-    "name": "Dumplings (steamed)",
+    "name": "Dumplings",
     "description": "Steamed dumplings with soy sauce.",
     "ingredients": [
       "Dumplings",
@@ -88,7 +88,7 @@
   },
   {
     "id": 8,
-    "name": "Tiktok pasta, kylling",
+    "name": "Tiktok-pasta",
     "description": "Baked feta pasta with cherry tomatoes and chicken.",
     "ingredients": [
       "Pasta",
@@ -112,7 +112,7 @@
   },
   {
     "id": 10,
-    "name": "Kremet pasta, kylling, sopp",
+    "name": "Kremet pasta med sopp",
     "description": "Creamy pasta with chicken and mushrooms.",
     "ingredients": [
       "Pasta",
@@ -124,7 +124,7 @@
   },
   {
     "id": 11,
-    "name": "Fiskeboller, hvit saus",
+    "name": "Fiskeboller i hvit saus",
     "description": "Fish dumplings in white sauce.",
     "ingredients": [
       "Fish dumplings",
@@ -136,7 +136,7 @@
   },
   {
     "id": 12,
-    "name": "Panert fisk, ertestuing, stekt potet",
+    "name": "Panert fisk og ertestuing",
     "description": "Breaded fish with mashed peas and fried potatoes.",
     "ingredients": [
       "Fish",
@@ -148,7 +148,7 @@
   },
   {
     "id": 13,
-    "name": "Koteletter, ovnsstekte grønnsaker",
+    "name": "Ovnsstekte koteletter og grønnsaker",
     "description": "Pork chops with oven-roasted vegetables.",
     "ingredients": [
       "Pork chops",
@@ -160,7 +160,7 @@
   },
   {
     "id": 14,
-    "name": "Pizza med fyll (kaldhevet)",
+    "name": "Kaldhevet Pizza (24t)",
     "description": "Cold-fermented pizza with tomato sauce and cheese.",
     "ingredients": [
       "Flour",
@@ -173,7 +173,7 @@
   },
   {
     "id": 15,
-    "name": "Laks med mangosalat og creme fraiche",
+    "name": "Laks med Mangosalat ",
     "description": "Salmon with mango salad and crème fraîche.",
     "ingredients": [
       "Salmon",
@@ -184,7 +184,7 @@
   },
   {
     "id": 16,
-    "name": "Linsegryte med karri og revet kylling",
+    "name": "Linsegryte med Karri",
     "description": "Lentil curry with shredded chicken.",
     "ingredients": [
       "Lentils",
@@ -196,7 +196,7 @@
   },
   {
     "id": 17,
-    "name": "Kjøttgryte med grønnsaker",
+    "name": "Kjøttgryte med Grønnsaker",
     "description": "Hearty beef stew with vegetables.",
     "ingredients": [
       "Beef",
@@ -208,7 +208,7 @@
   },
   {
     "id": 18,
-    "name": "Hjemmelagde kjøttboller, potetmos og stekt brokkolini",
+    "name": "Kjøttboller og Potetmos",
     "description": "Homemade meatballs with mashed potatoes and broccolini.",
     "ingredients": [
       "Ground beef",
@@ -219,7 +219,7 @@
   },
   {
     "id": 19,
-    "name": "Grillet kylling og paprika med kremostfyll",
+    "name": "Grillet Paprika med Kremost",
     "description": "Grilled chicken with stuffed bell peppers.",
     "ingredients": [
       "Chicken",
@@ -230,7 +230,7 @@
   },
   {
     "id": 20,
-    "name": "Fylt paprika",
+    "name": "Fylt Paprika",
     "description": "Stuffed bell peppers with meat and rice.",
     "ingredients": [
       "Bell peppers",
@@ -241,7 +241,7 @@
   },
   {
     "id": 21,
-    "name": "Grillet kylling, waldorfsalat, stekte poteter",
+    "name": "Grillet Kylling og Waldorfsalat",
     "description": "Grilled chicken with Waldorf salad and roasted potatoes.",
     "ingredients": [
       "Chicken",
@@ -254,7 +254,7 @@
   },
   {
     "id": 22,
-    "name": "Baconsurra kylling med ostefyll",
+    "name": "Baconsurret Kylling",
     "description": "Bacon-wrapped chicken with cheese filling.",
     "ingredients": [
       "Chicken",
@@ -276,7 +276,7 @@
   },
   {
     "id": 24,
-    "name": "Bakt søtpotet med grønnsaker",
+    "name": "Bakt Søtpotet",
     "description": "Baked sweet potato with vegetables.",
     "ingredients": [
       "Sweet potato",
@@ -297,7 +297,7 @@
   },
   {
     "id": 27,
-    "name": "Wraps med reinsdyrskav",
+    "name": "Wraps med Reinsdyrskav",
     "description": "Spenstig variant av fredagstacoen; wraps med saftig skav og syrlig tyttebærrømme. NAM! Vilt godt, fra naturen!",
     "ingredients": [
       "Reinsdyrskav",
