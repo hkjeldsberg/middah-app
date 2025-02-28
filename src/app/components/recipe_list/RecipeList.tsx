@@ -2,8 +2,10 @@ import styles from "@/app/page.module.css";
 import Image from "next/image";
 import React, {useEffect, useState} from "react";
 import {Recipe} from "@/app/models/Recipe";
+import {useRouter} from "next/navigation";
 
 export const RecipeList = () => {
+    const router = useRouter();
     const [recipes, setRecipes] = useState<Recipe[]>([]);
 
     const loadRecipeImage = async (recipeId: number): Promise<string> => {
@@ -38,7 +40,12 @@ export const RecipeList = () => {
             <h1 className={styles.title}>⭐️ Oppskrifter ⭐️</h1>
             <div className={styles.recipeGrid}>
                 {recipes.map((recipe) => (
-                    <div key={recipe.id} className={styles.recipeCard}>
+                    <div
+                        key={recipe.id}
+                        className={styles.recipeCard}
+                        onClick={() => router.push(`/recipe/${recipe.id}`)}
+                        style={{cursor: "pointer"}}
+                    >
                         <Image
                             src={recipe.image || "/placeholder.jpg"}
                             alt={recipe.name}
@@ -48,7 +55,9 @@ export const RecipeList = () => {
                         />
                         <div className={styles.recipeInfo}>
                             <h2>{recipe.name}</h2>
-                            <div>
+                            <div
+
+                            >
                                 <Image
                                     aria-hidden
                                     src="/clock.svg"

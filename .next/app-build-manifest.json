@@ -21,8 +21,17 @@
       "static/chunks/517-c5e9dd966e39f1b6.js",
       "static/chunks/main-app-e0fad14018e6a00b.js",
       "static/css/d7a07d9bece212fb.css",
-      "static/chunks/565-a2a9ce6771df7245.js",
-      "static/chunks/app/page-39c9c808ae48d60c.js"
+      "static/chunks/738-1aea6300ac1296fd.js",
+      "static/chunks/app/page-33f4ed5c2324ddb8.js"
+    ],
+    "/recipe/[id]/page": [
+      "static/chunks/webpack-b632ef033778744e.js",
+      "static/chunks/4bd1b696-9d53a45aeb6e92ca.js",
+      "static/chunks/517-c5e9dd966e39f1b6.js",
+      "static/chunks/main-app-e0fad14018e6a00b.js",
+      "static/css/d7a07d9bece212fb.css",
+      "static/chunks/738-1aea6300ac1296fd.js",
+      "static/chunks/app/recipe/[id]/page-558073b0ac06b129.js"
     ]
   }
 }

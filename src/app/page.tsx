@@ -6,7 +6,6 @@ import {RecipeList} from "@/app/components/recipe_list/RecipeList";
 
 
 export default function Home() {
-
     return (
         <div className={styles.page}>
             <main className={styles.main}>
