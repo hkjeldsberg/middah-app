@@ -326,5 +326,25 @@
       "Løk"
     ],
     "instructions": "Stek reinsdyrskavet i en panne til det er mørt. Bland rømme med tyttebær for en syrlig smak. Fyll wraps med kjøttet, salat, løk, og topp med tyttebærrømme. Server umiddelbart."
+  },
+  {
+    "id": 28,
+    "name": "Gulrot og søtpotetsuppe",
+    "description": "En spicy og mettende suppe der sødmen fra søtpotet og kokosmelk møter varmende chili og ingefær. Perfekt for en plantebasert middag!",
+    "ingredients": [
+      "1 liten søtpotet (ca. 400g), i biter",
+      "2 store gulrøtter (ca. 200g), i biter",
+      "2 ss stekefett (smør/klaret smør/kokosfett)",
+      "4 dl kokosmelk (ca. 400g)",
+      "2 fedd hvitløk, finhakket",
+      "0.5 gul løk, hakket",
+      "1 ss revet ingefær",
+      "0.5 rød chili, finhakket",
+      "2 ss rød chilipaste (smak til)",
+      "5 dl grønnsaksbuljong (evt. kyllingkraft)",
+      "Garnityr: gresskarkjerner ristet i soyasaus + chiliflak"
+    ],
+    "instructions": "Stek løk, hvitløk, chili og ingefær i smeltet stekefett. Tilsett chilipaste og la det surre i et minutt. Ha i søtpotet, gulrøtter, kokosmelk og buljong. Kok i 20-25 minutter til grønnsakene er møre. Blend suppen jevn og smak til med limesaft. Server med garnityr."
   }
+
 ]
