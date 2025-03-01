@@ -296,6 +296,24 @@
     "instructions": "Cook chicken in a creamy sauce with sun-dried tomatoes."
   },
   {
+    "id": 26,
+    "name": "Indisk à la Ece",
+    "description": "En smakfull indisk inspirert rett med kylling, krydder og en kremet saus laget med crème fraîche.",
+    "ingredients": [
+      "Kylling",
+      "Vårløk",
+      "Løk",
+      "Chili",
+      "Ingefær",
+      "Tomatpuré",
+      "Crème fraîche",
+      "Garam masala",
+      "Tandoori masala",
+      "Gurkemeie"
+    ],
+    "instructions": "Stek kyllingen i en panne til den er gyllen. Tilsett hakket løk, vårløk, chili og ingefær, og fres til mykt. Rør inn tomatpuré og krydderne, og la det surre i noen minutter. Tilsett crème fraîche og la sausen småkoke til den tykner. Server med ris eller naan."
+  },
+  {
     "id": 27,
     "name": "Wraps med Reinsdyrskav",
     "description": "Spenstig variant av fredagstacoen; wraps med saftig skav og syrlig tyttebærrømme. NAM! Vilt godt, fra naturen!",
