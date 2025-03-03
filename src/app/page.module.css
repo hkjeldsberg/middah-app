@@ -108,3 +108,41 @@
 .recipeInfoIcon {
     margin-right: .5rem;
 }
+
+
+.ingredient {
+    color: #000000; /* Example: Orange text */
+    background-color: #dbd9d9; /* Light background */
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+.servingsControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.servingsButton {
+    background-color: #a6a6a6;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.servingsButton:hover {
+    background-color: #5e5e5e;
+}
+
+.servingsText {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+}

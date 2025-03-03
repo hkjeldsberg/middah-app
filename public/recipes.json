@@ -1,15 +1,104 @@
 [
   {
     "id": 1,
-    "name": "Wok med Kylling",
-    "description": "Wok with chicken and vegetables.",
-    "ingredients": [
-      "Chicken",
-      "Vegetables",
-      "Soy sauce",
-      "Noodles"
-    ],
-    "instructions": "Cook the chicken, add vegetables, stir-fry with soy sauce, and serve."
+    "name": "Wok med kylling",
+    "description": "Superenkel og superrask wok med kylling og nudler.",
+    "servings": 2,
+    "prep_time": "Under 30 min",
+    "ingredients": {
+      "Woksaus": [
+        {
+          "id": "soyasaus",
+          "ingredient": "Soyasaus",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "lime",
+          "ingredient": "Limesaft",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "chilliflak",
+          "ingredient": "Chiliflakes",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "peanottsmor",
+          "ingredient": "Peanøttsmør",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "honning",
+          "ingredient": "Honning",
+          "amount": 1,
+          "unit": "ss"
+        }
+      ],
+      "Wok": [
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "gronnsaker",
+          "ingredient": "Grønnsaker",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "nudler",
+          "ingredient": "Nudler",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Olje",
+          "amount": 4,
+          "unit": "ss"
+        },
+        {
+          "id": "sesamfro",
+          "ingredient": "Sesamfrø",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Fersk koriander",
+          "amount": 0.5,
+          "unit": "bunt"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Woksaus",
+        "instructions": [
+          "Bland {soyasaus}, {lime}, {honning}, {chilliflak}, og {peanottsmor} godt sammen.",
+          "Eventuelt, ha det på et lite glass og rist til peanøttsmøret er oppløst."
+        ]
+      },
+      {
+        "name": "Wok",
+        "instructions": [
+          "Skjær {kyllingfilet} i strimler og ha bitene i en skål.",
+          "Hakk opp {gronnsaker} i like store terninger, eventuelt benytt ønsket mengde med fryst wokmiks.",
+          "Fres {kyllingfilet} på høy varme i en panne med {olje}. Ta ut kjøttet når det får en fin brukfarge.",
+          "Fortsett med å steke grønnsakene på høy varme til de får litt farge.",
+          "Mens grønnsakene steker, tilbred {nudler} etter anvisning på pakken.",
+          "Når grønnsakene ser klare ut, bland inn stekt {kyllingfilet} og {nudler} til slutt. Nudlene kan eventuelt serveres ved siden av.",
+          "Tilsett woksausen og kok opp. Smak til med salt og pepper.",
+          "Topp med {koriander} og {sesamfro}."
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -346,5 +435,4 @@
     ],
     "instructions": "Stek løk, hvitløk, chili og ingefær i smeltet stekefett. Tilsett chilipaste og la det surre i et minutt. Ha i søtpotet, gulrøtter, kokosmelk og buljong. Kok i 20-25 minutter til grønnsakene er møre. Blend suppen jevn og smak til med limesaft. Server med garnityr."
   }
-
 ]

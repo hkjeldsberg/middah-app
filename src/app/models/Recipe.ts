@@ -1,8 +1,13 @@
-export interface Recipe {
+import {Instructions} from "@/app/models/Instructions";
+import {Ingredient} from "@/app/models/Ingredient";
+
+export type Recipe = {
     id: number;
     name: string;
     description: string;
-    ingredients: string[];
-    instructions: string;
+    prep_time: string;
+    servings: number;
+    ingredients: Ingredient[];
+    instructions: Instructions[];
     image?: string;
 }
