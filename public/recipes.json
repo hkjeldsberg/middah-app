@@ -507,5 +507,106 @@
       "Garnityr: gresskarkjerner ristet i soyasaus + chiliflak"
     ],
     "instructions": "Stek løk, hvitløk, chili og ingefær i smeltet stekefett. Tilsett chilipaste og la det surre i et minutt. Ha i søtpotet, gulrøtter, kokosmelk og buljong. Kok i 20-25 minutter til grønnsakene er møre. Blend suppen jevn og smak til med limesaft. Server med garnityr."
+  },
+  {
+    "id": 29,
+    "name": "Hjemmebakte knekkebrød",
+    "description": "Sprø, hjemmelagde knekkebrød som passer til alle måltider. Perfekt med pålegg, som tilbehør til supper eller ostefat.",
+    "servings": 32,
+    "prepTime": "60 min",
+    "ingredients": {
+      "Deig ": [
+        {
+          "id": "solsikkekjerner",
+          "ingredient": "Solsikkekjerner",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "id": "gresskarkjerner",
+          "ingredient": "Gresskarkjerner",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "linfro",
+          "ingredient": "Linfrø",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "sesamfro",
+          "ingredient": "Sesamfrø",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "chiafro",
+          "ingredient": "Chiafrø",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "fiberhusk",
+          "ingredient": "Fiberhusk",
+          "amount": 2,
+          "unit": "ts"
+        },
+        {
+          "id": "salt",
+          "ingredient": "Salt",
+          "amount": 2,
+          "unit": "ts"
+        },
+        {
+          "id": "vann",
+          "ingredient": "Vann",
+          "amount": 5,
+          "unit": "dl"
+        }
+      ],
+      "Topping": [
+        {
+          "id": "chiafro_topping",
+          "ingredient": "Chiafrø",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Knekkebrøddeig",
+        "instructions": [
+          "Sett stekeovnen på 160 grader varmluft.",
+          "Mål opp og rør {solsikkekjerner}, {gresskarkjerner}, {linfro}, {chiafro}, {sesamfro} og {fiberhusk} godt sammen.",
+          "Tilsett {salt} og {vann} og rør det hele sammen til en grøtete deig.",
+          "La blandingen stå i 5-10 minutter slik at {fiberhusk} får svelle.",
+          "Fordel røren jevnt utover to bakepapirkledde stekebrett.",
+          "Bruk en slikkepott til å stryke røren så jevnt som mulig, slik at knekkebrødene blir likt stekt.",
+          "Strø over {chiafro_topping} for ekstra sprøhet."
+        ]
+      },
+      {
+        "name": "Steking",
+        "instructions": [
+          "Sett begge brettene inn i ovnen og stek i 10 minutter.",
+          "Ta brettene ut og bruk et pizzahjul eller en kniv til å skjære opp i ca. 4x4 biter per brett.",
+          "Sett brettene tilbake i ovnen og bytt plass ca. hvert 15-20 minutt for jevn steking.",
+          "Total steketid er ca. 50-60 minutter, men følg med mot slutten.",
+          "Dersom noen knekkebrød er ferdige før andre, ta dem ut og la de tykkere steke litt lenger.",
+          "Brekk knekkebrødene forsiktig fra hverandre og la dem avkjøles helt på rist."
+        ]
+      },
+      {
+        "name": "Lagring og servering",
+        "instructions": [
+          "Oppbevar i en tett boks. De er holdbare i flere uker.",
+          "Nyt med pålegg, som tilbehør til suppe eller ost – eller alene!"
+        ]
+      }
+    ]
   }
 ]
+
+
