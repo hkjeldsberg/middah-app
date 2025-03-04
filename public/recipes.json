@@ -4,7 +4,7 @@
     "name": "Wok med kylling",
     "description": "Superenkel og superrask wok med kylling og nudler.",
     "servings": 2,
-    "prep_time": "Under 30 min",
+    "prepTime": "Under 30 min",
     "ingredients": {
       "Woksaus": [
         {
@@ -197,7 +197,13 @@
       "Leek",
       "Cream"
     ],
-    "instructions": "Cook fish in broth with vegetables, add cream, and serve hot."
+    "instructions": {
+      "name": "",
+      "instructions": [
+        "Bland {soyasaus}, {lime}, {honning}, {chilliflak}, og {peanottsmor} godt sammen.",
+        "Eventuelt, ha det på et lite glass og rist til peanøttsmøret er oppløst."
+      ]
+    }
   },
   {
     "id": 10,
@@ -214,14 +220,81 @@
   {
     "id": 11,
     "name": "Fiskeboller i hvit saus",
-    "description": "Fish dumplings in white sauce.",
-    "ingredients": [
-      "Fish dumplings",
-      "Milk",
-      "Butter",
-      "Flour"
-    ],
-    "instructions": "Prepare a white sauce, add fish dumplings, and serve warm."
+    "description": "Den tradisjonelle fiskebollefavoritten med et hint av karri.",
+    "servings": 2,
+    "prepTime": "Under 20 minutter",
+    "ingredients": {
+      "Fiskeboller": [
+        {
+          "id": "fiskeboller",
+          "ingredient": "Fiskeboller",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrøtter",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "muskat",
+          "ingredient": "Muskat",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "karri",
+          "ingredient": "Karri",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "kraft",
+          "ingredient": "Kraft fra fiskebolleboksen",
+          "amount": 2.5,
+          "unit": "dl"
+        },
+        {
+          "id": "melk",
+          "ingredient": "Helmelk",
+          "amount": 2.5,
+          "unit": "dl"
+        },
+        {
+          "id": "mel",
+          "ingredient": "Hvetemel",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 3,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Fiskeboller i hvit saus",
+        "instructions": [
+          "Start med å skjære {potet} i båter og kok de møre. Skjær opp {gulrot} i større biter.",
+          "Smelt {smor} i en kjele på medium varme. Tilsett {mel} og rør godt.",
+          "Hell i {kraft}, og rør sausen til den blir glatt og jevn.",
+          "Tilsett {melk}, og la det småkoke i ca.5 minutter under omrøring.",
+          "Tilsett {muskat} og {karri} i sausen, og smak til med salt og pepper.",
+          "Legg {fiskeboller} i sausen og la det hele bli gjennomvarmt før servering.",
+          "Kok {gulrot} i fem minutter til de er litt myke."
+        ]
+      }
+    ]
   },
   {
     "id": 12,

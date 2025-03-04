@@ -1,8 +1,10 @@
-import styles from "@/app/page.module.css";
+import styles from "@/app/components/RecipeList/RecipeList.module.scss"
 import Image from "next/image";
 import React, {useEffect, useState} from "react";
 import {Recipe} from "@/app/models/Recipe";
 import {useRouter} from "next/navigation";
+import {RecipeTime} from "@/app/components/RecipeTime/RecipeTime";
+import {lora} from "@/app/Utils";
 
 export const RecipeList = () => {
     const router = useRouter();
@@ -42,7 +44,7 @@ export const RecipeList = () => {
                 {recipes.map((recipe) => (
                     <div
                         key={recipe.id}
-                        className={styles.recipeCard}
+                        className={`${styles.recipeCard} ${lora.className}`}
                         onClick={() => router.push(`/recipe/${recipe.id}`)}
                         style={{cursor: "pointer"}}
                     >
@@ -54,22 +56,8 @@ export const RecipeList = () => {
                             className={styles.recipeImage}
                         />
                         <div className={styles.recipeInfo}>
-                            <h2>{recipe.name}</h2>
-                            <div
-
-                            >
-                                <Image
-                                    aria-hidden
-                                    src="/clock.svg"
-                                    alt="LinkedIn icon"
-                                    width={16}
-                                    height={16}
-                                    className={styles.recipeInfoIcon}
-                                />
-                                <p>
-                                    To timer
-                                </p>
-                            </div>
+                            <div className={styles.recipeName}>{recipe.name}</div>
+                            <RecipeTime prepTime={recipe.prepTime}/>
                         </div>
                     </div>
                 ))}

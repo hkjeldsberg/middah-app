@@ -1,0 +1,20 @@
+
+
+.middah-heading {
+  font-family: var(--font-lora), sans-serif !important;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #333;
+}
+
+.main {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}

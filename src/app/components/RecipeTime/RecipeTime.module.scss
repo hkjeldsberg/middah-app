@@ -1,0 +1,23 @@
+.recipeTime {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  padding: .5rem 0;
+
+  .recipeTimeText {
+    width: max-content;
+  }
+
+  .recipeIcon {
+    width: max-content;
+    display: flex;
+    align-items: center;
+
+    .recipeIconImage {
+      margin-right: .5rem;
+    }
+  }
+}
+
+
+

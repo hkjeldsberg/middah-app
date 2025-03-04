@@ -24,6 +24,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+$bg: #fffaee;
+body {
+  background-color: $bg;
+}
+
+html * {
+  font-family: var(--font-lora), sans-serif;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

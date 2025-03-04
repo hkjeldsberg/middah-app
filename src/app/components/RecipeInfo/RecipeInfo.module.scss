@@ -1,0 +1,108 @@
+$bg-light: #f5efdc;
+$bg: #fffaee;
+$add: #ccc7ba;
+$add-hover: #a4a096;
+$black: black;
+$border-radius: 8px;
+$transition-speed: 0.3s;
+$text-color: #333;
+$hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+.recipeImage {
+  width: 100%;
+  max-height: 50%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.ingredient {
+  color: $black;
+  background-color: $bg;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+.recipeContainer {
+  display: flex;
+  padding: 1rem 0;
+
+  .recipeIngredients {
+    width: 33%;
+    padding: 1rem;
+    background-color: $bg-light;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+    text-align: center;
+
+    ul {
+      list-style-type: none;
+      text-align: left;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        line-height: 1.5;
+        color: $text-color;
+      }
+    }
+  }
+
+  .recipeInstructions {
+    width: 67%;
+    padding: 1rem;
+    margin-left: .5rem;
+    background-color: $bg-light;
+    border-radius: 8px;
+
+    h3 {
+      padding-top: 1.5rem;
+    }
+
+    ol {
+      list-style-type: decimal;
+      padding-left: 1.5rem;
+
+      > li::marker {
+        font-weight: bold;
+      }
+
+      li {
+        margin-bottom: 0.8rem;
+        line-height: 1.5;
+        color: $text-color;
+        text-align: left;
+      }
+    }
+
+  }
+}
+
+.servingsControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.servingsButton {
+  background-color: $add;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.servingsButton:hover {
+  background-color: $add-hover;
+}
+
+.servingsText {
+  font-weight: bold;
+  min-width: 80px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.containerFooter {
+  .footerName {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerLinks {
+    display: flex;
+
+    .footerLink {
+      display: flex;
+      padding: .5rem;
+    }
+
+    a {
+      margin: 1rem 1rem;
+      text-decoration: none;
+
+      img {
+        margin-right: .1rem;
+      }
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+

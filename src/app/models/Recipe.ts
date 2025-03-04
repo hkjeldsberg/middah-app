@@ -5,7 +5,7 @@ export type Recipe = {
     id: number;
     name: string;
     description: string;
-    prep_time: string;
+    prepTime: string;
     servings: number;
     ingredients: Ingredient[];
     instructions: Instructions[];

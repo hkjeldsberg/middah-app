@@ -1,9 +1,12 @@
 "use client"
+import styles from "@/app/components/RecipeInfo/RecipeInfo.module.scss"
 import {useParams} from 'next/navigation';
 import Image from 'next/image';
-import styles from '@/app/page.module.css';
 import {Recipe} from '@/app/models/Recipe';
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
+import {lora} from "@/app/Utils";
+import {RecipeTime} from "@/app/components/RecipeTime/RecipeTime";
+
 
 export const RecipeInfo = () => {
     const params = useParams();
@@ -36,12 +39,13 @@ export const RecipeInfo = () => {
     }, [id]);
 
     if (!recipe || servings === null) {
-        return <p>Loading...</p>;
+        return <p>Laster...</p>;
     }
 
     const scaleAmount = (amount: number) => {
-        return (amount * servings) / recipe.servings;
-
+        amount = (amount * servings) / recipe.servings
+        const isInteger = Number.isInteger(amount)
+        return (isInteger) ? amount.toFixed(0) : amount.toFixed(1)
     }
 
 
@@ -58,7 +62,7 @@ export const RecipeInfo = () => {
                 if (formattedInstruction.includes(placeholder)) {
                     formattedInstruction = formattedInstruction.replace(
                         new RegExp(placeholder, 'g'),
-                        `<span class="${styles.ingredient}">${scaleAmount(amount).toFixed(1)} ${unit} ${ingredient.toLowerCase()}</span>`
+                        `<span class="${styles.ingredient}">${scaleAmount(amount)} ${unit} ${ingredient.toLowerCase()}</span>`
                     );
                 }
             })
@@ -68,8 +72,7 @@ export const RecipeInfo = () => {
     };
 
     return (
-        <div className={styles.recipeContainer}>
-            <h1 className={styles.title}>{recipe.name}</h1>
+        <>
             <Image
                 src={recipe.image || '/placeholder.jpg'}
                 alt={recipe.name}
@@ -77,57 +80,61 @@ export const RecipeInfo = () => {
                 height={300}
                 className={styles.recipeImage}
             />
-            <p>{recipe.description}</p>
 
-            {/* Servings Control with + and - buttons */}
-            <div className={styles.servingsControl}>
-                <button
-                    className={styles.servingsButton}
-                    onClick={() => setServings((prev) => prev && Math.max(1, prev - 1))}
-                >
-                    −
-                </button>
+            <div className={styles.recipeContainer}>
 
-                <span className={styles.servingsText}>{servings} Servings</span>
+                <div className={styles.recipeIngredients}>
+                    <h2 className={`${lora.className}`}>Ingredienser</h2>
+                    <div className={styles.servingsControl}>
+                        <button
+                            className={styles.servingsButton}
+                            onClick={() => setServings((prev) => prev && Math.max(1, prev - 1))}
+                        >
+                            −
+                        </button>
 
-                <button
-                    className={styles.servingsButton}
-                    onClick={() => setServings((prev) => prev && prev + 1)}
-                >
-                    +
-                </button>
+                        <span className={styles.servingsText}>{servings} {servings == 1 ? "porsjon" : "porsjoner"}</span>
+
+                        <button
+                            className={styles.servingsButton}
+                            onClick={() => setServings((prev) => prev && prev + 1)}
+                        >
+                            +
+                        </button>
+                    </div>
+
+
+                    {recipe.ingredients && Object.entries(recipe.ingredients).map(([category, items]) => (
+                        <div key={category}>
+                            <h3>{category}</h3>
+                            <ul>
+                                {Array.isArray(items) && items.map((ingredient) => (
+                                    <li key={ingredient.id}>
+                                        <div>{ingredient.ingredient}</div>
+                                        <div>{scaleAmount(ingredient.amount)} {ingredient.unit}</div>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
+                </div>
+
+                <div className={styles.recipeInstructions}>
+                    <h1 className={`${lora.className}`}>{recipe.name}</h1>
+                    <RecipeTime prepTime={recipe.prepTime}/>
+
+                    {recipe.instructions && recipe.instructions.map((section) => (
+                        <div key={section.name}>
+                            <h3>{section.name}</h3>
+                            <ol>
+                                {section.instructions.map((step, index) => (
+                                    <li key={index} dangerouslySetInnerHTML={{__html: formatInstruction(step)}}/>
+                                ))}
+                            </ol>
+                        </div>
+                    ))}
+                </div>
             </div>
-
-            <p><strong>Servings:</strong> {recipe.servings}</p>
-            <p><strong>Prep Time:</strong> {recipe.prep_time}</p>
-
-            {/* Ingredients Section */}
-            <h2>Ingredients</h2>
-            {recipe.ingredients && Object.entries(recipe.ingredients).map(([category, items]) => (
-                <div key={category}>
-                    <h3>{category}</h3>
-                    <ul>
-                        {Array.isArray(items) && items.map((ingredient) => (
-                            <li key={ingredient.id}>
-                                {scaleAmount(ingredient.amount).toFixed(1)} {ingredient.unit} {ingredient.ingredient}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
-
-            {/* Instructions Section */}
-            <h2>Instructions</h2>
-            {recipe.instructions && recipe.instructions.map((section) => (
-                <div key={section.name}>
-                    <h3>{section.name}</h3>
-                    <ol>
-                        {section.instructions.map((step, index) => (
-                            <li key={index} dangerouslySetInnerHTML={{__html: formatInstruction(step)}}/>
-                        ))}
-                    </ol>
-                </div>
-            ))}
-        </div>
+        </>
     );
 };
