@@ -2,6 +2,7 @@ $bg-light: #f5efdc;
 $bg: #fffaee;
 $add: #ccc7ba;
 $add-hover: #a4a096;
+$max-width: 700px;
 $black: black;
 $border-radius: 8px;
 $transition-speed: 0.3s;
@@ -25,9 +26,18 @@ $hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 .recipeContainer {
   display: flex;
   padding: 1rem 0;
+  gap: 1.5rem 0;
+
+  @media screen and (max-width: $max-width) {
+    flex-direction: column;
+  }
+
 
   .recipeIngredients {
     width: 33%;
+    @media screen and (max-width: $max-width) {
+      width: 100%;
+    }
     padding: 1rem;
     background-color: $bg-light;
     margin-right: 0.5rem;
@@ -50,8 +60,13 @@ $hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   .recipeInstructions {
     width: 67%;
-    padding: 1rem;
     margin-left: .5rem;
+
+    @media screen and (max-width: $max-width) {
+      width: 100%;
+      margin-left: 0;
+    }
+    padding: 1rem;
     background-color: $bg-light;
     border-radius: 8px;
 

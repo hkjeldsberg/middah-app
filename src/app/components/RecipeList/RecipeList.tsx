@@ -39,7 +39,7 @@ export const RecipeList = () => {
 
     return (
         <>
-            <h1 className={styles.title}>⭐️ Oppskrifter ⭐️</h1>
+            <h1 className={`${styles.title} ${lora.className}`}>️Middah.</h1>
             <div className={styles.recipeGrid}>
                 {recipes.map((recipe) => (
                     <div
