@@ -114,16 +114,111 @@
   },
   {
     "id": 3,
-    "name": "Cæsarsalat",
-    "description": "Caesar salad with chicken and croutons.",
-    "ingredients": [
-      "Lettuce",
-      "Chicken",
-      "Croutons",
-      "Parmesan",
-      "Caesar dressing"
-    ],
-    "instructions": "Mix lettuce, chicken, and dressing, then top with parmesan and croutons."
+    "name": "Cæsarsalat med kylling og egg",
+    "description": "En klassisk og smakfull cæsarsalat med saftig kylling, sprø bacon, ristede pinjekjerner og en hjemmelaget dressing.",
+    "servings": 4,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Salat": [
+        {
+          "id": "hjertesalat",
+          "ingredient": "Hjertesalat",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "bacon",
+          "ingredient": "Bacon",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "id": "parmesan",
+          "ingredient": "Parmesan",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "pinjekjerner",
+          "ingredient": "Pinjekjerner",
+          "amount": 50,
+          "unit": "g"
+        }
+      ],
+      "Dressing": [
+        {
+          "id": "eggeplomme",
+          "ingredient": "Eggeplomme",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "sennep",
+          "ingredient": "Fin sennep",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "worcestersaus",
+          "ingredient": "Worcestershire-saus",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitronsaft",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "dl"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Dressing",
+        "instructions": [
+          "Pisk {eggeplomme} sammen med {sennep} og {hvitlok} (finhakket) i en bolle.",
+          "Tilsett {sitron} og {worcestersaus}, og visp sammen.",
+          "Spe forsiktig med {olivenolje} i en tynn stråle mens du pisker til dressingen får en majonesaktig konsistens.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Cæsarsalat",
+        "instructions": [
+          "Vask og riv {hjertesalat} i passe store biter, og ha i en salatbolle.",
+          "Kok {egg} i ca. 10 minutter til de er hardkokte. Skjær de så i båter og tilsett i salaten.",
+          "Kutt {kyllingfilet} i strimler og krydre med salt og pepper. Stek kyllingen på medium varme til den er gjennomstekt eller i airfryer på 180 grader i 20 minutter.",
+          "Hakk opp {bacon} og stek det i en tørr panne til det blir sprøtt.",
+          "Bland inn skivet {kyllingfilet}, {bacon} og skivet {egg} i salaten og tilsett dressingen.",
+          "Riv {parmesan} som du drysser over over salaten, samt {pinjekjerner}."
+
+        ]
+      }
+    ]
   },
   {
     "id": 4,
