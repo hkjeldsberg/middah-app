@@ -103,14 +103,121 @@
   {
     "id": 2,
     "name": "Stekt Laks med Feta-salat",
-    "description": "Grilled salmon with feta salad and cauliflower rice.",
-    "ingredients": [
-      "Salmon",
-      "Feta cheese",
-      "Salad",
-      "Cauliflower rice"
-    ],
-    "instructions": "Grill the salmon, mix salad with feta cheese, and serve with cauliflower rice."
+    "description": "Saftig stekt laks servert med en frisk feta- og grønnsakssalat, samt næringsrik blomkålris.",
+    "servings": 2,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Salat": [
+        {
+          "id": "feta",
+          "ingredient": "Fetaost",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "salat",
+          "ingredient": "Hjertesalat",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "tomat",
+          "ingredient": "Cherrytomater",
+          "amount": 6,
+          "unit": "stk"
+        },
+        {
+          "id": "agurk",
+          "ingredient": "Agurk",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "havsalt",
+          "ingredient": "Havsalt",
+          "amount": 1,
+          "unit": "ss"
+        }
+      ],
+      "Blomkålris": [
+        {
+          "id": "blomkal",
+          "ingredient": "Blomkål",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "sitronsaft2",
+          "ingredient": "Sitronsaft",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Stekt laks": [
+        {
+          "id": "laks",
+          "ingredient": "Laksefilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "sitronsaft",
+          "ingredient": "Sitronsaft",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "salt",
+          "ingredient": "Havsalt",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "sitronpepper",
+          "ingredient": "Pepper",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "chiliflak",
+          "ingredient": "Chiliflakes",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Salat",
+        "instructions": [
+          "Skyll og kutt {salat}, {tomat} og {agurk} i passende biter.",
+          "Smuldre eller kutt {feta} i små terninger og bland med grønnsakene.",
+          "Bland inn {olivenolje} og {havsalt}."
+        ]
+      },
+      {
+        "name": "Blomkålris",
+        "instructions": [
+          "Skyll {blomkal} og riv den grovt på et rivjern.",
+          "Bland inn {sitronsaft2}, og varm risen i en kjele i 5 minutter.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Stekt laks",
+        "instructions": [
+          "Pensle {laks} med litt olje, {sitron}, {chiliflak}, {salt}, og {pepper}.",
+          "Stek i en varm panne på middels varme i ca. 4 minutter på hver side til laksen er gyllen og gjennomstekt. Alternativt stek i airfryer i 15 minutter på 180 grader.",
+          "Server med blomkålris og salat."
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -215,7 +322,6 @@
           "Hakk opp {bacon} og stek det i en tørr panne til det blir sprøtt.",
           "Bland inn skivet {kyllingfilet}, {bacon} og skivet {egg} i salaten og tilsett dressingen.",
           "Riv {parmesan} som du drysser over over salaten, samt {pinjekjerner}."
-
         ]
       }
     ]
