@@ -54,7 +54,8 @@ export const RecipeInfo = () => {
         if (!recipe.ingredients) return instruction;
 
         let formattedInstruction = instruction;
-        Object.entries(recipe.ingredients).forEach(([items]) => {
+        Object.entries(recipe.ingredients).forEach(([ignore, items]) => {
+            console.log(ignore)
             // @ts-expect-error Need to type this
             items.forEach(({id, ingredient, amount, unit}) => {
                 const placeholder = `{${id}}`;
@@ -92,7 +93,8 @@ export const RecipeInfo = () => {
                             −
                         </button>
 
-                        <span className={styles.servingsText}>{servings} {servings == 1 ? "porsjon" : "porsjoner"}</span>
+                        <span
+                            className={styles.servingsText}>{servings} {servings == 1 ? "porsjon" : "porsjoner"}</span>
 
                         <button
                             className={styles.servingsButton}
