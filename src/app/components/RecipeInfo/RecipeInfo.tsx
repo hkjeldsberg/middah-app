@@ -54,8 +54,7 @@ export const RecipeInfo = () => {
         if (!recipe.ingredients) return instruction;
 
         let formattedInstruction = instruction;
-        Object.entries(recipe.ingredients).forEach(([prop, items]) => {
-            console.log(prop)
+        Object.entries(recipe.ingredients).forEach(([items]) => {
             // @ts-expect-error Need to type this
             items.forEach(({id, ingredient, amount, unit}) => {
                 const placeholder = `{${id}}`;

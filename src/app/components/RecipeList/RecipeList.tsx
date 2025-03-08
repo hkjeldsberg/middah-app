@@ -2,13 +2,20 @@ import styles from "@/app/components/RecipeList/RecipeList.module.scss"
 import Image from "next/image";
 import React, {useEffect, useState} from "react";
 import {Recipe} from "@/app/models/Recipe";
-import {useRouter} from "next/navigation";
+import {useRouter, useSearchParams} from "next/navigation";
 import {RecipeTime} from "@/app/components/RecipeTime/RecipeTime";
 import {lora} from "@/app/Utils";
 
 export const RecipeList = () => {
     const router = useRouter();
     const [recipes, setRecipes] = useState<Recipe[]>([]);
+    const [recipesToShow, setRecipesToShow] = useState<Recipe[]>([]);
+    const [page, setPage] = useState<number>(1)
+    const max_items = 6
+    const num_pages = Math.ceil(recipes.length / max_items)
+    const params = useSearchParams()
+    const showPagination = params.get("page") == "true"
+    const range = (start: number, end: number) => Array.from(Array(end).keys()).slice(start);
 
     const loadRecipeImage = async (recipeId: number): Promise<string> => {
         try {
@@ -36,12 +43,39 @@ export const RecipeList = () => {
 
         loadRecipes();
     }, []);
+    const handleClickScroll = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
 
+
+    useEffect(() => {
+        const updateRecipe = () => {
+            if (showPagination) {
+                const indices = range(1 + max_items * (page - 1), 1 + max_items * page)
+                const newRecipes = recipes.filter(recipe => indices.includes(recipe.id))
+                setRecipesToShow(newRecipes)
+            } else {
+                setRecipesToShow(recipes)
+            }
+        }
+        updateRecipe()
+    }, [recipes, page, showPagination]);
+
+    const pageUp = () => {
+        handleClickScroll()
+        setPage((prev) => Math.min(prev + 1, num_pages));
+    };
+
+    const pageDown = () => {
+        handleClickScroll()
+        setPage((prev) => Math.max(prev - 1, 1));
+    };
     return (
         <>
-            <h1 className={`${styles.title} ${lora.className}`}>️Middah.</h1>
+            <h1 id="title" className={`${styles.title} ${lora.className}`}>️Middah.</h1>
+
             <div className={styles.recipeGrid}>
-                {recipes.map((recipe) => (
+                {recipesToShow.map((recipe) => (
                     <div
                         key={recipe.id}
                         className={`${styles.recipeCard} ${lora.className}`}
@@ -62,6 +96,27 @@ export const RecipeList = () => {
                     </div>
                 ))}
             </div>
+            {showPagination && <div className={styles.pagination}>
+                <button
+                    className={styles.paginationButton}
+                    onClick={pageDown}
+                    disabled={page === 1}
+                >
+                    ←
+                </button>
+
+                <span className={styles.pageIndicator}>
+                    Side {page} of {num_pages}
+                </span>
+
+                <button
+                    className={styles.paginationButton}
+                    onClick={pageUp}
+                    disabled={page === num_pages}
+                >
+                    →
+                </button>
+            </div>}
         </>
     )
 }
