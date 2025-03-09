@@ -630,12 +630,74 @@
     "id": 23,
     "name": "Eggepizza",
     "description": "Low-carb egg-based pizza.",
-    "ingredients": [
-      "Eggs",
-      "Cheese",
-      "Tomato sauce"
-    ],
-    "instructions": "Make an egg base, add toppings, and bake."
+    "servings": 2,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Eggepizza": [
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 6,
+          "unit": "stk"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Gulost",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "basil",
+          "ingredient": "Basilikum",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "bacon",
+          "ingredient": "Bacon",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpure",
+          "amount": 6,
+          "unit": "ts"
+        },
+        {
+          "id": "rodlok",
+          "ingredient": "Rødløk",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    "instructions":[
+      {
+        "name": "Fyll",
+        "instructions": [
+          "Stek {kjottdeig} i en varm panne til den er gjennomstekt.",
+          "Stek {bacon} sprøtt i en egen panne eller sammen med kjøttdeigen. Sett til side."
+        ]
+      },
+      {
+        "name": "Eggepizza",
+        "instructions": [
+          "Klekk {egg} i en stor stekepanne på medium varme. La eggene stivne litt før du fortsetter med toppingen.",
+          "Fordel {tomatpure} jevnt over eggebunnen.",
+          "Legg på skivet {rodlok}, stekt {kjottdeig} og {bacon}.",
+          "La pizzaen steke videre til eggene er helt faste.",
+          "Dryss over revet {ost} og legg på lokk i ca. 5 minutter til osten har smeltet.",
+          "Topp med blader fra {basil} før servering."
+        ]
+      }
+    ]
   },
   {
     "id": 24,
