@@ -212,7 +212,7 @@
       {
         "name": "Stekt laks",
         "instructions": [
-          "Pensle {laks} med litt olje, {sitron}, {chiliflak}, {salt}, og {pepper}.",
+          "Pensle {laks} med litt olje, {sitronsaft}, {chiliflak}, {salt}, og {sitronpepper}.",
           "Stek i en varm panne på middels varme i ca. 4 minutter på hver side til laksen er gyllen og gjennomstekt. Alternativt stek i airfryer i 15 minutter på 180 grader.",
           "Server med blomkålris og salat."
         ]
@@ -328,15 +328,52 @@
   },
   {
     "id": 4,
-    "name": "Bakt Kveite med Grønnsaker",
+    "name": "Ovnsbakt kveite i folie",
+    "servings": 2,
+    "prepTime": "30 min",
     "description": "Baked white fish with carrots, potatoes, and butter.",
-    "ingredients": [
-      "White fish",
-      "Carrot",
-      "Potato",
-      "Butter"
-    ],
-    "instructions": "Bake the fish, boil the carrots and potatoes, and serve with melted butter."
+    "ingredients": {
+      "Fisk": [
+        {"id": "kveite", "ingredient": "Kveite", "amount": 400, "unit": "g"},
+        {"id": "sitronsaft", "ingredient": "Sitronsaft", "amount": 2, "unit": "ss"},
+        {"id": "smor", "ingredient": "Smør", "amount": 50, "unit": "g"}
+      ],
+      "Eggesmør": [
+        {"id": "egg", "ingredient": "Egg", "amount": 2, "unit": "stk"},
+        {"id": "smeltsmor", "ingredient": "Smør", "amount": 100, "unit": "g"}
+      ],
+      "Grønnsaker": [
+        {"id": "gulrot", "ingredient": "Gulrot", "amount": 4, "unit": "stk"},
+        {"id": "potet", "ingredient": "Poteter", "amount": 4, "unit": "stk"}
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Ovnsbakt kveite",
+        "instructions": [
+          "Sett ovnen på 180 grader.",
+          "Skjær {kveite} i skiver, og legg på aluminiumsfolie.",
+          "Krydre med salt og pepper, og drypp over {sitronsaft} og legg en bit {smor} oppå fisken.",
+          "Pakk sammen til en tett pakke og stek i ovnen i ca. 15 minutter."
+        ]
+      },
+      {
+        "name": "Eggesmør",
+        "instructions": [
+          "Hardkok {egg}, dvs. i 8 minutter, og bruk en eggedeler til å dele i små biter.",
+          "Smelt {smeltsmor} i en liten kjele, og tilsett egget.",
+          "Server blandingen til fisken."
+        ]
+      },
+      {
+        "name": "Koke grønnsaker",
+        "instructions": [
+          "Skjær av enden på {gulrot}, og del den og {potet} i passe store biter.",
+          "Kok {potet} i lettsaltet vann i ca. 15 minutter til de er møre.",
+          "Kok så {gulrot} i en egen kjele (eller sammen med potetene) i ca. 10 minutter til de er myke, men fortsatt har litt tyggemotstand."
+        ]
+      }
+    ]
   },
   {
     "id": 5,
