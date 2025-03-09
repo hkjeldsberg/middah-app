@@ -639,13 +639,83 @@
   },
   {
     "id": 24,
-    "name": "Bakt Søtpotet",
-    "description": "Baked sweet potato with vegetables.",
-    "ingredients": [
-      "Sweet potato",
-      "Vegetables"
-    ],
-    "instructions": "Bake sweet potatoes and serve with vegetables."
+    "name": "Bakt søtpotet med bacon og kjøttdeig",
+    "description": "En fyldig og smakfull bakt søtpotet fylt med kjøttdeig, sprøstekt bacon, smeltet ost, crème fraîche og koriander.",
+    "servings": 2,
+    "prepTime": "40 min",
+    "ingredients": {
+      "Bakt søtpotet": [
+        {
+          "id": "sotpotet",
+          "ingredient": "Søtpotet",
+          "amount": 1,
+          "unit": "stor"
+        }
+      ],
+      "Fyll": [
+        {
+          "id": "bacon",
+          "ingredient": "Bacon",
+          "amount": 1,
+          "unit": "pk"
+        },
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "cremefraiche",
+          "ingredient": "Crème fraîche",
+          "amount": 1.5,
+          "unit": "dl"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Revet gulost",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "mais",
+          "ingredient": "Mais",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Koriander",
+          "amount": 1,
+          "unit": "bunt"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Bakt søtpotet",
+        "instructions": [
+          "Sett ovnen på 200 grader.",
+          "Vask og tørk {sotpotet} godt, og del den i to på langs.",
+          "Plass er den på et stekepapir midt i ovnen og la den bake i ca. 30 minutter.",
+          "Etter 30 minutter, strø {ost} på hver søtpotethalvdel og sett dem tilbake i ovnen i 5-10 minutter, til osten har smeltet."
+        ]
+      },
+      {
+        "name": "Fyll",
+        "instructions": [
+          "Mens søtpoteten stekes i ovnen, stek {bacon} i en tørr panne til det blir sprøtt.",
+          "Brun {kjottdeig} i en panne til den er gjennomstekt, og bland inn {mais}."
+        ]
+      },
+      {
+        "name": "Tilbredning",
+        "instructions": [
+          "Ta ut søtpoteten og server med {cremefraiche}, sprøstekt bacon, kjøttdeig- og maisblandingen.",
+          "Dryss over hakket {koriander}."
+        ]
+      }
+    ]
   },
   {
     "id": 25,
