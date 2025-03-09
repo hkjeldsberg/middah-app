@@ -334,17 +334,52 @@
     "description": "Baked white fish with carrots, potatoes, and butter.",
     "ingredients": {
       "Fisk": [
-        {"id": "kveite", "ingredient": "Kveite", "amount": 400, "unit": "g"},
-        {"id": "sitronsaft", "ingredient": "Sitronsaft", "amount": 2, "unit": "ss"},
-        {"id": "smor", "ingredient": "Smør", "amount": 50, "unit": "g"}
+        {
+          "id": "kveite",
+          "ingredient": "Kveite",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "sitronsaft",
+          "ingredient": "Sitronsaft",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 50,
+          "unit": "g"
+        }
       ],
       "Eggesmør": [
-        {"id": "egg", "ingredient": "Egg", "amount": 2, "unit": "stk"},
-        {"id": "smeltsmor", "ingredient": "Smør", "amount": 100, "unit": "g"}
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "smeltsmor",
+          "ingredient": "Smør",
+          "amount": 100,
+          "unit": "g"
+        }
       ],
       "Grønnsaker": [
-        {"id": "gulrot", "ingredient": "Gulrot", "amount": 4, "unit": "stk"},
-        {"id": "potet", "ingredient": "Poteter", "amount": 4, "unit": "stk"}
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrot",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 4,
+          "unit": "stk"
+        }
       ]
     },
     "instructions": [
@@ -715,7 +750,7 @@
         }
       ]
     },
-    "instructions":[
+    "instructions": [
       {
         "name": "Fyll",
         "instructions": [
@@ -978,5 +1013,4 @@
     ]
   }
 ]
-
 
