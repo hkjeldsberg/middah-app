@@ -955,7 +955,7 @@
         },
         {
           "id": "gul_lok",
-          "ingredient": "Gul løk",
+          "ingredient": "Sjalottløk",
           "amount": 2,
           "unit": "stk"
         },
@@ -1008,6 +1008,18 @@
           "ingredient": "Crème Fraîche",
           "amount": "1.5",
           "unit": "dl"
+        },
+        {
+          "id": "bacon",
+          "ingredient": "Skivet bacon",
+          "amount": "140",
+          "unit": "g"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Koriander",
+          "amount": "1",
+          "unit": "bunt"
         }
       ]
     },
@@ -1022,8 +1034,9 @@
           "Tilsett {chilisaus} og la det surre i 2 minutter.",
           "Tilsett {sotpotet}, {gulrot}, {kokosmelk} og {kyllingkraft} i gryten.",
           "Kok opp og la suppen småkoke i 20 minutter til grønnsakene er helt møre.",
+          "Mens suppa koker, skjær {bacon} i biter og sprøstek i en panne.",
           "Bruk en stavmikser eller blender til å kjøre suppen jevn og kremet.",
-          "Smak til med salt, pepper, og server suppen toppet med {gresskarkjerner} og {creme} ved siden av."
+          "Smak til med salt, pepper, og server suppen toppet med {bacon}, {gresskarkjerner} og {koriander}, og {creme} ved siden av."
         ]
       }
     ]
