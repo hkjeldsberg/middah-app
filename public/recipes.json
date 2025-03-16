@@ -413,40 +413,370 @@
   {
     "id": 5,
     "name": "Lasagne",
-    "description": "Lasagna with cucumber salad and bread.",
-    "ingredients": [
-      "Lasagna sheets",
-      "Ground beef",
-      "Tomato sauce",
-      "Cheese",
-      "Cucumber",
-      "Bread"
-    ],
-    "instructions": "Prepare lasagna with meat sauce and cheese, bake, and serve with cucumber salad and bread."
+    "description": "Klassisk, smakfull lasagne med kjøttsaus, ostesaus og pastalag, servert med frisk agurksalat og brød.",
+    "servings": 4,
+    "prepTime": "60 min",
+    "ingredients": {
+      "Kjøttsaus": [
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrot",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpuré",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "hermetisktomater",
+          "ingredient": "Hermetiske tomater",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "tomatjuice",
+          "ingredient": "Tomatjuice",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "oregano",
+          "ingredient": "Tørket oregano",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "basilikum",
+          "ingredient": "Tørket basilikum",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Ostesaus": [
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 4,
+          "unit": "ss"
+        },
+        {
+          "id": "melk",
+          "ingredient": "Melk",
+          "amount": 5,
+          "unit": "dl"
+        },
+        {
+          "id": "muskat",
+          "ingredient": "Muskat",
+          "amount": 0.5,
+          "unit": "ts"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Revet ost",
+          "amount": 200,
+          "unit": "g"
+        }
+      ],
+      "Lasagne": [
+        {
+          "id": "lasagneplater",
+          "ingredient": "Lasagneplater",
+          "amount": 250,
+          "unit": "g"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "agurk",
+          "ingredient": "Agurk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "brod",
+          "ingredient": "Brød",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Kjøttsaus",
+        "instructions": [
+          "Finhakk {lok}, {hvitlok} og {gulrot}.",
+          "Brun {kjottdeig} i en stekepanne til den får fin farge.",
+          "Tilsett de hakkede grønnsakene og stek videre i et par minutter.",
+          "Rør inn {tomatpure} og stek i 1-2 minutter til.",
+          "Ha i {hermetisktomater}, {tomatjuice}, {oregano} og {basilikum}.",
+          "La sausen småkoke i 15-20 minutter. Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Ostesaus",
+        "instructions": [
+          "Smelt {smor} i en kjele på middels varme.",
+          "Tilsett {hvetemel} og rør godt sammen til en jevning.",
+          "Spe gradvis med {melk} under konstant omrøring til sausen tykner.",
+          "La sausen koke på svak varme i ca. 5 minutter.",
+          "Tilsett {muskat} og halvparten av {ost}. Rør til osten er smeltet.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Lasagne",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Smør en ildfast form med litt smør eller olje.",
+          "Legg et tynt lag kjøttsaus i bunnen av formen.",
+          "Legg på et lag med {lasagneplater}.",
+          "Fordel et lag kjøttsaus over pastaplaten, deretter et lag ostesaus.",
+          "Gjenta lagene med pastaplater, kjøttsaus og ostesaus til formen er full. Det siste laget skal være ostesaus.",
+          "Strø resten av {ost} på toppen.",
+          "Stek lasagnen midt i ovnen i ca. 30-35 minutter til den er gyllen på toppen og boblende varm."
+        ]
+      },
+      {
+        "name": "Tilbehør",
+        "instructions": [
+          "Skjær {agurk} i tynne skiver og legg på et fat.",
+          "Server lasagnen varm med agurksalat og {brod}."
+        ]
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Dumplings",
-    "description": "Steamed dumplings with soy sauce.",
-    "ingredients": [
-      "Dumplings",
-      "Soy sauce",
-      "Ginger"
-    ],
-    "instructions": "Steam the dumplings for 10-15 minutes and serve with soy sauce."
+    "description": "Saftige, dampede dumplings med aromatisk dipsaus. En enkel og smakfull rett som kan tilberedes på kort tid.",
+    "servings": 2,
+    "prepTime": "20 min",
+    "ingredients": {
+      "Dumplings": [
+        {
+          "id": "dumplings",
+          "ingredient": "Frosne dumplings",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "vann",
+          "ingredient": "Vann",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Nøytral olje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Dipsaus": [
+        {
+          "id": "soyasaus",
+          "ingredient": "Soyasaus",
+          "amount": 4,
+          "unit": "ss"
+        },
+        {
+          "id": "riseddik",
+          "ingredient": "Riseddik",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "sesamolje",
+          "ingredient": "Sesamolje",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "ingefar",
+          "ingredient": "Fersk ingefær",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "chili",
+          "ingredient": "Rød chili",
+          "amount": 0.5,
+          "unit": "stk"
+        },
+        {
+          "id": "varlok",
+          "ingredient": "Vårløk",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Dipsaus",
+        "instructions": [
+          "Finhakk {ingefar}, {chili} og {varlok}.",
+          "Bland {soyasaus}, {riseddik} og {sesamolje} i en liten skål.",
+          "Tilsett den hakkede ingefæren, chilien og vårløken.",
+          "La sausen stå og trekke mens du tilbereder dumplingene."
+        ]
+      },
+      {
+        "name": "Tilberede dumplings",
+        "instructions": [
+          "Varm opp en stekepanne med {olje} på middels til høy varme.",
+          "Legg {dumplings} i pannen og stek dem i 2-3 minutter til de får en gyllen underside.",
+          "Hell {vann} forsiktig i pannen (forsiktig, det vil sprute), og sett på lokk med en gang.",
+          "Reduser varmen til middels og la dumplingene dampe i 8-10 minutter til vannet er fordampet og de er gjennomvarme.",
+          "Server dumplingene varme med dipsausen."
+        ]
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Ramen",
-    "description": "Japanese noodle soup with broth and egg.",
-    "ingredients": [
-      "Noodles",
-      "Chicken broth",
-      "Egg",
-      "Mushroom",
-      "Spring onions"
-    ],
-    "instructions": "Cook ramen noodles in broth, add egg and vegetables, and serve hot."
+    "description": "En varmende og smakfull japansk nudelsuppe med sjøtang, umami-rik kraft, myke egg og sprø grønnsaker.",
+    "servings": 2,
+    "prepTime": "25 min",
+    "ingredients": {
+      "Buljong": [
+        {
+          "id": "kyllingkraft",
+          "ingredient": "Kyllingkraft",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "id": "ingefar",
+          "ingredient": "Fersk ingefær",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "soyasaus",
+          "ingredient": "Soyasaus",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "miso",
+          "ingredient": "Misopasta",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Ramen": [
+        {
+          "id": "nudler",
+          "ingredient": "Ramennudler",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "sopp",
+          "ingredient": "Shiitakesopp",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "varlok",
+          "ingredient": "Vårløk",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "tangblad",
+          "ingredient": "Noritangblad",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "beansprouts",
+          "ingredient": "Bønnespirer",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Bløtkoktegg",
+        "instructions": [
+          "Kok {egg} i 6 minutter for bløtkokte egg.",
+          "Avkjøl eggene i iskaldt vann og skrell dem forsiktig.",
+          "Del eggene i to og sett til side."
+        ]
+      },
+      {
+        "name": "Buljong",
+        "instructions": [
+          "Skrell og finhakk {ingefar} og {hvitlok}.",
+          "Ha {kyllingkraft} i en stor kjele og kok opp.",
+          "Tilsett ingefær, hvitløk og {soyasaus}.",
+          "La det småkoke i ca. 10 minutter.",
+          "Rør inn {miso} til den er oppløst. Hold buljongen varm."
+        ]
+      },
+      {
+        "name": "Grønnsaker",
+        "instructions": [
+          "Rens og skjær {sopp} i skiver.",
+          "Finhakk {varlok} og skyll {beansprouts}.",
+          "Stek soppen i litt olje til den er gyllen og myk."
+        ]
+      },
+      {
+        "name": "Ramen",
+        "instructions": [
+          "Kok {nudler} etter anvisning på pakken, og skyll dem i kaldt vann.",
+          "Fordel nudlene i to dype skåler.",
+          "Hell den varme buljongen over nudlene.",
+          "Topp med stekt sopp, bønnespirer, vårløk, halve egg og biter av {tangblad}.",
+          "Server ramen umiddelbart."
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -455,73 +785,305 @@
     "prepTime": "40 min",
     "description": "Baked feta pasta with cherry tomatoes and chicken.",
     "ingredients": {
-        "Tiktok-pasta": [
-          {"id": "pasta", "ingredient": "Valgfri pasta", "amount": 200, "unit": "g"},
-          {"id": "kyllingfilet", "ingredient": "Kyllingfilet", "amount": 400, "unit": "g"},
-          {"id": "feta", "ingredient": "Fetaost", "amount": 200, "unit": "g"},
-          {"id": "tomater", "ingredient": "Cherrytomater", "amount": 250, "unit": "g"},
-          {"id": "hvitlok", "ingredient": "Hvitløk", "amount": 3, "unit": "fedd"},
-          {"id": "basilikum", "ingredient": "Fersk basilikum", "amount": 1, "unit": "bunt"},
-          {"id": "olivenolje", "ingredient": "Olivenolje", "amount": 4, "unit": "ss"},
-          {"id": "chiliflak", "ingredient": "Chiliflak", "amount": 2, "unit": "ts"},
-          {"id": "pastavann", "ingredient": "Pastavann", "amount": 1, "unit": "dl"}
-        ]
-      },
-      "instructions": [
+      "Tiktok-pasta": [
         {
-          "name": "Baking av feta og tomater",
-          "instructions": [
-            "Forvarm ovnen til 200°C.",
-            "Legg {feta} i midten av en ildfast form og legg {tomater} og {hvitlok} rundt.",
-            "Hell på {olivenolje}, {chiliflak}, salt og pepper, og bak formen i ca. 25 minutter."
-          ]
+          "id": "pasta",
+          "ingredient": "Valgfri pasta",
+          "amount": 200,
+          "unit": "g"
         },
         {
-          "name": "Kylling og pasta",
-          "instructions": [
-            "Krydre {kyllingfilet} med salt og pepper, skjær den i skiver, og stek den i en varm panne med litt {olivenolje}.",
-            "Kok {pasta} etter anvisning på pakken, og ta vare på {pastavann}."
-          ]
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
         },
         {
-          "name": "Tik-tok pasta",
-          "instructions": [
-            "Ta den ildfaste formen ut av ovnen, og tilsett {pastavann}.",
-            "Bland pastavannet, {feta} og {tomater} godt sammen til en saus, og vend inn {pasta} og stekt {kyllingfilet}.",
-            "Topp retten med {basilikum}."
-          ]
+          "id": "feta",
+          "ingredient": "Fetaost",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "tomater",
+          "ingredient": "Cherrytomater",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "basilikum",
+          "ingredient": "Fersk basilikum",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 4,
+          "unit": "ss"
+        },
+        {
+          "id": "chiliflak",
+          "ingredient": "Chiliflak",
+          "amount": 2,
+          "unit": "ts"
+        },
+        {
+          "id": "pastavann",
+          "ingredient": "Pastavann",
+          "amount": 1,
+          "unit": "dl"
         }
       ]
+    },
+    "instructions": [
+      {
+        "name": "Baking av feta og tomater",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Legg {feta} i midten av en ildfast form og legg {tomater} og {hvitlok} rundt.",
+          "Hell på {olivenolje}, {chiliflak}, salt og pepper, og bak formen i ca. 25 minutter."
+        ]
+      },
+      {
+        "name": "Kylling og pasta",
+        "instructions": [
+          "Krydre {kyllingfilet} med salt og pepper, skjær den i skiver, og stek den i en varm panne med litt {olivenolje}.",
+          "Kok {pasta} etter anvisning på pakken, og ta vare på {pastavann}."
+        ]
+      },
+      {
+        "name": "Tik-tok pasta",
+        "instructions": [
+          "Ta den ildfaste formen ut av ovnen, og tilsett {pastavann}.",
+          "Bland pastavannet, {feta} og {tomater} godt sammen til en saus, og vend inn {pasta} og stekt {kyllingfilet}.",
+          "Topp retten med {basilikum}."
+        ]
+      }
+    ]
   },
   {
     "id": 9,
     "name": "Fiskesuppe",
-    "description": "Creamy fish soup with vegetables.",
-    "ingredients": [
-      "Fish",
-      "Carrot",
-      "Leek",
-      "Cream"
-    ],
-    "instructions": {
-      "name": "",
-      "instructions": [
-        "Bland {soyasaus}, {lime}, {honning}, {chilliflak}, og {peanottsmor} godt sammen.",
-        "Eventuelt, ha det på et lite glass og rist til peanøttsmøret er oppløst."
+    "description": "Kremet og smakfull fiskesuppe med saftige fiskebiter, sprø grønnsaker og frisk dill. En klassisk norsk rett som varmer på kalde dager.",
+    "servings": 4,
+    "prepTime": "40 min",
+    "ingredients": {
+      "Fiskesuppe": [
+        {
+          "id": "fisk",
+          "ingredient": "Torsk eller sei",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrot",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "purre",
+          "ingredient": "Purre",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "fiskekraft",
+          "ingredient": "Fiskekraft",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "id": "flote",
+          "ingredient": "Fløte",
+          "amount": 3,
+          "unit": "dl"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "dill",
+          "ingredient": "Fersk dill",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitron",
+          "amount": 1,
+          "unit": "stk"
+        }
       ]
-    }
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Skjær {fisk} i terninger på ca. 3x3 cm.",
+          "Skrell og del {gulrot} i tynne skiver.",
+          "Del {purre} i tynne ringer. Skyll godt.",
+          "Skrell og del {potet} i terninger.",
+          "Finhakk {lok}.",
+          "Hakk {dill} grovt og sett til side."
+        ]
+      },
+      {
+        "name": "Fiskesuppe",
+        "instructions": [
+          "Smelt {smor} i en stor kjele på middels varme.",
+          "Tilsett løk og purre, og stek til de er myke men ikke brune, ca. 5 minutter.",
+          "Strø over {hvetemel} og rør godt sammen til en jevning.",
+          "Spe med {fiskekraft} litt om gangen under konstant omrøring for å unngå klumper.",
+          "Tilsett gulrot og potet, og la suppen koke på svak varme i ca. 15 minutter til grønnsakene er møre.",
+          "Hell i {flote} og gi suppen et nytt oppkok.",
+          "Legg forsiktig i fiskebitene og la dem trekke i 3-4 minutter til de er gjennomkokte.",
+          "Smak til med salt, pepper og presset saft fra {sitron}.",
+          "Dryss over fersk dill før servering."
+        ]
+      }
+    ]
   },
   {
     "id": 10,
     "name": "Kremet pasta med sopp",
-    "description": "Creamy pasta with chicken and mushrooms.",
-    "ingredients": [
-      "Pasta",
-      "Chicken",
-      "Mushrooms",
-      "Cream"
-    ],
-    "instructions": "Sauté chicken and mushrooms, add cream, and mix with pasta."
+    "description": "En luksuriøs pastarett med saftig kylling, aromatisk sopp og en silkemyk fløtesaus. En enkel og tilfredsstillende middag.",
+    "servings": 4,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Pasta": [
+        {
+          "id": "pasta",
+          "ingredient": "Tagliatelle eller pappardelle",
+          "amount": 350,
+          "unit": "g"
+        }
+      ],
+      "Saus": [
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "sopp",
+          "ingredient": "Sjampinjong",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Sjalottløk",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Fersk timian",
+          "amount": 4,
+          "unit": "kvister"
+        },
+        {
+          "id": "hvitvin",
+          "ingredient": "Tørr hvitvin",
+          "amount": 1,
+          "unit": "dl"
+        },
+        {
+          "id": "flote",
+          "ingredient": "Matfløte",
+          "amount": 3,
+          "unit": "dl"
+        },
+        {
+          "id": "parmesan",
+          "ingredient": "Parmesan",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Skjær {kyllingfilet} i strimler.",
+          "Rens og skjær {sopp} i skiver.",
+          "Hakk {lok} og {hvitlok} fint.",
+          "Fjern bladene fra {timian}."
+        ]
+      },
+      {
+        "name": "Saus",
+        "instructions": [
+          "Varm opp {olivenolje} og {smor} i en stor stekepanne på middels varme.",
+          "Tilsett kyllingstrimlene og stek til de er gylne, ca. 5-6 minutter. Ta ut og hold varme.",
+          "I samme panne, tilsett sopp og stek til den er gyllen og all væske er fordampet, ca. 7-8 minutter.",
+          "Tilsett løk og hvitløk, og stek videre i 2-3 minutter til de er myke.",
+          "Hell i {hvitvin} og skrap opp alle stekerester fra bunnen av pannen. La vinen koke ned til ca. halvparten.",
+          "Rør inn {flote} og timianbladene, og la sausen småkoke i 5 minutter til den tykner litt.",
+          "Tilsett kyllingen tilbake i sausen og varm alt gjennom.",
+          "Smak til med salt og nykvernet pepper."
+        ]
+      },
+      {
+        "name": "Pasta",
+        "instructions": [
+          "Kok {pasta} i lettsaltet vann til den er al dente, følg anvisningen på pakken.",
+          "Spar ca. 1 dl av pastavannet før du siler av resten.",
+          "Vend pastaen inn i sausen og tilsett litt av pastavannet om nødvendig for å få ønsket konsistens.",
+          "Riv {parmesan} over pastaen og bland forsiktig.",
+          "Server straks med ekstra parmesan."
+        ]
+      }
+    ]
   },
   {
     "id": 11,
@@ -605,131 +1167,1837 @@
   {
     "id": 12,
     "name": "Panert fisk og ertestuing",
-    "description": "Breaded fish with mashed peas and fried potatoes.",
-    "ingredients": [
-      "Fish",
-      "Breadcrumbs",
-      "Peas",
-      "Potatoes"
-    ],
-    "instructions": "Bread and fry the fish, make mashed peas, and serve with fried potatoes."
+    "description": "Sprø, panert fisk servert med kremet ertestuing og sprøstekte poteter. En klassisk norsk middagsrett med moderne vri.",
+    "servings": 4,
+    "prepTime": "40 min",
+    "ingredients": {
+      "Panert fisk": [
+        {
+          "id": "fisk",
+          "ingredient": "Torskefilet",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 1,
+          "unit": "dl"
+        },
+        {
+          "id": "brodsmuler",
+          "ingredient": "Panko brødsmuler",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitron",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Nøytral olje",
+          "amount": 4,
+          "unit": "ss"
+        }
+      ],
+      "Ertestuing": [
+        {
+          "id": "erter",
+          "ingredient": "Frosne erter",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Sjalottløk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "flote",
+          "ingredient": "Matfløte",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "mynte",
+          "ingredient": "Frisk mynte",
+          "amount": 0.5,
+          "unit": "bunt"
+        }
+      ],
+      "Stekte poteter": [
+        {
+          "id": "potet",
+          "ingredient": "Mandelpoteter",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Olivenolje",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "rosmarin",
+          "ingredient": "Tørket rosmarin",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Stekte poteter",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Vask og del {potet} i båter.",
+          "Legg potetbåtene på et stekebrett, drypp over {olje} og dryss over {rosmarin}, salt og pepper.",
+          "Bland godt og stek i ovnen i ca. 30 minutter til potetene er gylne og sprø."
+        ]
+      },
+      {
+        "name": "Ertestuing",
+        "instructions": [
+          "Finhakk {lok} og {mynte}.",
+          "Tin {erter} hvis de er frosne.",
+          "Smelt {smor} i en kjele på middels varme og fres løken til den er myk.",
+          "Tilsett {hvetemel} og rør godt sammen til en jevning.",
+          "Spe med {flote} og rør godt til sausen blir jevn.",
+          "Tilsett erter og la det småkoke i 3-4 minutter.",
+          "Bruk en stavmikser til å blende ca. 1/3 av stuingen for en kremet konsistens, eller la alle ertene være hele.",
+          "Smak til med salt, pepper og bland inn hakket mynte."
+        ]
+      },
+      {
+        "name": "Panert fisk",
+        "instructions": [
+          "Del {fisk} i serveringsstykker og tørk dem med kjøkkenpapir.",
+          "Krydre med salt og pepper.",
+          "Sett frem tre dype tallerkener: en med {hvetemel}, en med vispet {egg}, og en med {brodsmuler}.",
+          "Vend hvert fiskestykke først i mel, så i egg, og til slutt i brødsmuler.",
+          "Varm {olje} i en stekepanne på middels høy varme.",
+          "Stek fisken i 2-3 minutter på hver side til den er gyllen og gjennomstekt.",
+          "Legg den stekte fisken på tørkepapir for å trekke ut overflødig fett.",
+          "Server fisken umiddelbart med sitronbåter, ertestuing og stekte poteter."
+        ]
+      }
+    ]
   },
   {
     "id": 13,
     "name": "Ovnsstekte koteletter og grønnsaker",
-    "description": "Pork chops with oven-roasted vegetables.",
-    "ingredients": [
-      "Pork chops",
-      "Bell peppers",
-      "Carrots",
-      "Onion"
-    ],
-    "instructions": "Season the pork chops and roast with vegetables in the oven."
+    "description": "Saftige, ovnsstekte svinekoteletter med fargerike rotgrønnsaker. En enkel og mettende hverdagsmiddag med lite oppvask.",
+    "servings": 4,
+    "prepTime": "50 min",
+    "ingredients": {
+      "Koteletter": [
+        {
+          "id": "koteletter",
+          "ingredient": "Svinekoteletter",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlokspulver",
+          "ingredient": "Hvitløkspulver",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "paprikapulver",
+          "ingredient": "Paprikapulver",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Grønnsaker": [
+        {
+          "id": "paprika",
+          "ingredient": "Paprika (rød, gul og grønn)",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrøtter",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Rødløk",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "squash",
+          "ingredient": "Squash",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "potet",
+          "ingredient": "Små poteter",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Fersk timian",
+          "amount": 4,
+          "unit": "kvister"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Olivenolje",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Vask {potet} og del dem i halvdeler.",
+          "Skjær {paprika} i store biter.",
+          "Skrell og skjær {gulrot} i staver.",
+          "Del {lok} i båter og {squash} i halvmåner.",
+          "Grovhakk {hvitlok} eller press det gjennom en hvitløkspresse."
+        ]
+      },
+      {
+        "name": "Koteletter",
+        "instructions": [
+          "Krydre {koteletter} på begge sider med salt, pepper, {hvitlokspulver} og {paprikapulver}.",
+          "Pensle med {olje} og sett til side mens du forbereder grønnsakene."
+        ]
+      },
+      {
+        "name": "Grønnsaker",
+        "instructions": [
+          "Legg alle grønnsakene i en stor ildfast form.",
+          "Drypp over {olje} og strø over {hvitlok}, salt og pepper.",
+          "Fordel kvister av {timian} over grønnsakene og bland alt godt.",
+          "Legg koteletterne oppå grønnsakene.",
+          "Stek i ovnen i ca. 35-40 minutter, til koteletterne er gjennomstekte og grønnsakene er møre.",
+          "Sjekk koteletterne underveis – de kan være ferdig før grønnsakene. Ta dem ut hvis nødvendig.",
+          "Server varmt, med timiankvisterne som garnityr."
+        ]
+      }
+    ]
   },
   {
     "id": 14,
     "name": "Kaldhevet Pizza (24t)",
-    "description": "Cold-fermented pizza with tomato sauce and cheese.",
-    "ingredients": [
-      "Flour",
-      "Yeast",
-      "Tomato sauce",
-      "Cheese",
-      "Toppings"
-    ],
-    "instructions": "Prepare the dough, let it rise overnight, add toppings, and bake."
+    "description": "Rustikk, napolitansk-inspirert pizza med luftig, kaldhevet deig som gir perfekt sprø og myk konsistens. Perfekt helgemat for hele familien.",
+    "servings": 4,
+    "prepTime": "24t + 40 min",
+    "ingredients": {
+      "Pizzadeig": [
+        {
+          "id": "hvetemel",
+          "ingredient": "Tipo 00 mel eller pizzamel",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "torrgjær",
+          "ingredient": "Tørrgjær",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "ingredient": "Salt",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "id": "vann",
+          "ingredient": "Kaldt vann",
+          "amount": 325,
+          "unit": "ml"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ],
+      "Tomatsaus": [
+        {
+          "id": "hermetisketomater",
+          "ingredient": "Hermetiske San Marzano tomater",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "ingredient": "Salt",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "basilikum",
+          "ingredient": "Fersk basilikum",
+          "amount": 0.5,
+          "unit": "bunt"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 1,
+          "unit": "fedd"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Extra virgin olivenolje",
+          "amount": 1,
+          "unit": "ss"
+        }
+      ],
+      "Topping": [
+        {
+          "id": "mozzarella",
+          "ingredient": "Fersk mozzarella",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": "parmesanost",
+          "ingredient": "Parmesan",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "basilikum",
+          "ingredient": "Fersk basilikum",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Extra virgin olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Pizzadeig (start 24t før)",
+        "instructions": [
+          "Bland {hvetemel}, {torrgjær} og {salt} i en stor bolle.",
+          "Tilsett gradvis {vann} mens du rører med en slikkepott eller treslev.",
+          "Når deigen begynner å samle seg, tilsett {olivenolje}.",
+          "Kna deigen på et lett melet underlag i ca. 10 minutter til den er glatt og elastisk.",
+          "Form deigen til en ball og legg den i en oljet bolle. Dekk med plast og sett i kjøleskapet i 24 timer.",
+          "Deigen vil nå heve seg langsomt og utvikle en kompleks smak."
+        ]
+      },
+      {
+        "name": "Tomatsaus",
+        "instructions": [
+          "Knus {hermetisketomater} i en bolle ved hjelp av hendene eller en gaffel.",
+          "Finhakk {hvitlok} og bland sammen med tomatene.",
+          "Riv noen blader {basilikum} og bland i.",
+          "Tilsett {salt} og {olivenolje}, og rør godt sammen.",
+          "La sausen hvile ved romtemperatur mens du forbereder resten."
+        ]
+      },
+      {
+        "name": "Steking av pizza",
+        "instructions": [
+          "Ta deigen ut av kjøleskapet 1-2 timer før steking så den får romtemperatur.",
+          "Forvarm ovnen til maksimal temperatur (250-300°C) med pizzastein eller stekebrett inne.",
+          "Del deigen i 4 like store emner og form hver til en ball.",
+          "Strekk hver deigball forsiktig ut til en rund pizza på ca. 25-30 cm i diameter på et melet underlag.",
+          "Legg pizzaen på bakepapir eller en pizzaspade.",
+          "Fordel et tynt lag tomatsaus over, men la kanten være fri.",
+          "Riv {mozzarella} i biter og fordel over pizzaen.",
+          "Stek pizzaen på den forvarme steinen eller brettet i 7-10 minutter til kantene er gylne og osten bobler.",
+          "Dryss over revet {parmesanost} og friske {basilikum}-blader.",
+          "Drypp litt {olivenolje} over før servering."
+        ]
+      }
+    ]
   },
   {
     "id": 15,
-    "name": "Laks med Mangosalat ",
-    "description": "Salmon with mango salad and crème fraîche.",
-    "ingredients": [
-      "Salmon",
-      "Mango",
-      "Creme fraiche"
-    ],
-    "instructions": "Grill the salmon, prepare the mango salad, and serve with crème fraîche."
+    "name": "Laks med Mangosalat",
+    "description": "Saftig laks med en frisk og eksotisk mangosalat og kjølig crème fraîche. En lett og sunn middag med asiatisk-inspirerte smaker.",
+    "servings": 2,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Laks": [
+        {
+          "id": "laks",
+          "ingredient": "Laksefilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "lime",
+          "ingredient": "Lime",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "honning",
+          "ingredient": "Honning",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Mangosalat": [
+        {
+          "id": "mango",
+          "ingredient": "Moden mango",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "agurk",
+          "ingredient": "Agurk",
+          "amount": 0.5,
+          "unit": "stk"
+        },
+        {
+          "id": "rodlok",
+          "ingredient": "Rødløk",
+          "amount": 0.5,
+          "unit": "stk"
+        },
+        {
+          "id": "chili",
+          "ingredient": "Rød chili",
+          "amount": 0.5,
+          "unit": "stk"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Fersk koriander",
+          "amount": 0.5,
+          "unit": "bunt"
+        },
+        {
+          "id": "lime",
+          "ingredient": "Limesaft",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "fiskesaus",
+          "ingredient": "Fiskesaus",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Servering": [
+        {
+          "id": "cremefraiche",
+          "ingredient": "Crème fraîche",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "lime",
+          "ingredient": "Limebåter",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Laks",
+        "instructions": [
+          "Forvarm ovnen til 200°C eller klargjør grillen til middels varme.",
+          "Del {laks} i to serveringsstykker og legg dem på et stykke aluminiumsfolie eller et bakepapirkledd stekebrett.",
+          "Bland saften fra halve {lime}, {olivenolje} og {honning} i en liten bolle.",
+          "Pensle blandingen over laksen og krydre med salt og pepper.",
+          "Bak laksen i ovnen i ca. 12-15 minutter, eller grill i 5-6 minutter på hver side til fisken er gjennomstekt men fortsatt saftig."
+        ]
+      },
+      {
+        "name": "Mangosalat",
+        "instructions": [
+          "Skrell og kutt {mango} i terninger.",
+          "Kutt {agurk} i tynne halvmåner.",
+          "Finhakk {rodlok}, {chili} og {koriander}.",
+          "Bland alle ingrediensene i en bolle.",
+          "Tilsett {lime} og {fiskesaus}, og vend det hele forsiktig sammen.",
+          "La salaten stå og trekke i minst 10 minutter før servering."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Legg laksen på tallerkener og server med mangosalaten ved siden av.",
+          "Ha en skje {cremefraiche} på toppen av laksen eller ved siden av.",
+          "Pynt med lime båter og ekstra koriander."
+        ]
+      }
+    ]
   },
   {
     "id": 16,
     "name": "Linsegryte med Karri",
-    "description": "Lentil curry with shredded chicken.",
-    "ingredients": [
-      "Lentils",
-      "Chicken",
-      "Curry",
-      "Coconut milk"
-    ],
-    "instructions": "Cook lentils with curry and coconut milk, then add shredded chicken."
+    "description": "En fyldig og smakfull linsegryte med karrikrydrede linser og saftig, revet kylling. Servert med duftende ris og frisk koriander.",
+    "servings": 4,
+    "prepTime": "45 min",
+    "ingredients": {
+      "Linsegryte": [
+        {
+          "id": "linser",
+          "ingredient": "Røde linser",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrøtter",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "ingefar",
+          "ingredient": "Fersk ingefær",
+          "amount": 2,
+          "unit": "cm"
+        },
+        {
+          "id": "karri",
+          "ingredient": "Karripulver",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "gurkemeie",
+          "ingredient": "Gurkemeie",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "kokosmelk",
+          "ingredient": "Kokosmelk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "id": "kyllingkraft",
+          "ingredient": "Kyllingkraft",
+          "amount": 5,
+          "unit": "dl"
+        },
+        {
+          "id": "limesaft",
+          "ingredient": "Limesaft",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Servering": [
+        {
+          "id": "ris",
+          "ingredient": "Basmatiris",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Fersk koriander",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "lime",
+          "ingredient": "Limebåter",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Skyll {linser} under kaldt vann til vannet renner klart.",
+          "Skjær {kyllingfilet} i store biter.",
+          "Finhakk {lok}, {hvitlok} og {ingefar}.",
+          "Skrell og kutt {gulrot} i terninger."
+        ]
+      },
+      {
+        "name": "Linsegryte",
+        "instructions": [
+          "Varm {olivenolje} i en stor gryte på middels varme.",
+          "Tilsett løk, gulrot, hvitløk og ingefær, og stek til løken er myk og gjennomsiktig.",
+          "Tilsett {karri} og {gurkemeie}, og stek i ca. 1 minutt til krydderet dufter.",
+          "Ha i linsene og rør godt så de blandes med krydder og grønnsaker.",
+          "Hell i {kyllingkraft} og {kokosmelk}, og rør godt.",
+          "Legg i kyllingbitene og kok opp.",
+          "Reduser varmen og la det småkoke under lokk i ca. 20-25 minutter til linsene er møre og kyllingen er gjennomkokt.",
+          "Ta ut kyllingen, riv den i biter med to gafler, og ha den tilbake i gryten.",
+          "Rør inn {limesaft} og smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Kok {ris} etter anvisning på pakken.",
+          "Hakk {koriander} grovt.",
+          "Server linsegryten over ris, toppet med fersk koriander og med limebåter på siden."
+        ]
+      }
+    ]
   },
   {
     "id": 17,
     "name": "Kjøttgryte med Grønnsaker",
-    "description": "Hearty beef stew with vegetables.",
-    "ingredients": [
-      "Beef",
-      "Carrots",
-      "Potatoes",
-      "Onion"
-    ],
-    "instructions": "Cook beef and vegetables together until tender."
+    "description": "En klassisk, varmende kjøttgryte med mørt oksekjøtt og sesongens grønnsaker. Perfekt for kalde dager og enkel å lage i store porsjoner.",
+    "servings": 4,
+    "prepTime": "2t 30min",
+    "ingredients": {
+      "Kjøttgryte": [
+        {
+          "id": "oksekjott",
+          "ingredient": "Oksekjøtt (høyrygg eller bog)",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "gulrot",
+          "ingredient": "Gulrøtter",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "sellerirot",
+          "ingredient": "Sellerirot",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "rodvin",
+          "ingredient": "Rødvin",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpuré",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "storfekraft",
+          "ingredient": "Storfekraft",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "id": "laurbærblad",
+          "ingredient": "Laurbærblad",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Fersk timian",
+          "amount": 4,
+          "unit": "kvister"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Servering": [
+        {
+          "id": "persille",
+          "ingredient": "Fersk persille",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "grovtbrod",
+          "ingredient": "Grovt brød",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Skjær {oksekjott} i terninger på ca. 3×3 cm.",
+          "Hakk {lok} og {hvitlok}.",
+          "Skrell og kutt {gulrot}, {sellerirot} og {potet} i grove biter."
+        ]
+      },
+      {
+        "name": "Kjøttgryte",
+        "instructions": [
+          "Varm {olivenolje} i en stor gryte på høy varme.",
+          "Strø salt og pepper over kjøttet, og brun det i flere omganger så det får god farge. Ta kjøttet ut av gryten.",
+          "Tilsett løk og hvitløk i samme gryte, og stek til løken er myk.",
+          "Rør inn {tomatpure} og stek i 1-2 minutter.",
+          "Strø over {hvetemel} og rør godt.",
+          "Hell i {rodvin} og skrap opp alle stekerester fra bunnen av gryten. La vinen koke ned til ca. halvparten.",
+          "Tilsett {storfekraft}, {laurbærblad} og kvister av {timian}.",
+          "Legg kjøttet tilbake i gryten og kok opp. Reduser varmen, legg på lokk og la det småkoke i ca. 1 time.",
+          "Tilsett gulrot og sellerirot, og la det småkoke i ytterligere 30 minutter.",
+          "Legg i potetbitene og la det koke i 20-30 minutter til kjøttet er mørt og potetene er gjennomkokte.",
+          "Fjern laurbærblad og timiankvist, og smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Hakk {persille} grovt.",
+          "Server kjøttgryten varm, toppet med fersk persille og med grovt brød til."
+        ]
+      }
+    ]
   },
   {
     "id": 18,
     "name": "Kjøttboller og Potetmos",
-    "description": "Homemade meatballs with mashed potatoes and broccolini.",
-    "ingredients": [
-      "Ground beef",
-      "Potatoes",
-      "Broccolini"
-    ],
-    "instructions": "Make meatballs, cook mashed potatoes, and sauté broccolini."
+    "description": "Hjemmelagde, saftige kjøttboller med kremet potetmos og dampet brokkoli. En klassisk norsk favoritt for hele familien.",
+    "servings": 4,
+    "prepTime": "45 min",
+    "ingredients": {
+      "Kjøttboller": [
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 1,
+          "unit": "fedd"
+        },
+        {
+          "id": "egg",
+          "ingredient": "Egg",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "brodsmuler",
+          "ingredient": "Brødsmuler",
+          "amount": 0.5,
+          "unit": "dl"
+        },
+        {
+          "id": "melk",
+          "ingredient": "Melk",
+          "amount": 0.5,
+          "unit": "dl"
+        },
+        {
+          "id": "persille",
+          "ingredient": "Fersk persille",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "muskat",
+          "ingredient": "Muskat",
+          "amount": 0.25,
+          "unit": "ts"
+        }
+      ],
+      "Potetmos": [
+        {
+          "id": "potet",
+          "ingredient": "Melne poteter",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "id": "melk",
+          "ingredient": "Varm melk",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "flote",
+          "ingredient": "Fløte",
+          "amount": 0.5,
+          "unit": "dl"
+        }
+      ],
+      "Brun saus": [
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "storfekraft",
+          "ingredient": "Storfekraft",
+          "amount": 5,
+          "unit": "dl"
+        },
+        {
+          "id": "flotemelt",
+          "ingredient": "Fløte",
+          "amount": 1,
+          "unit": "dl"
+        },
+        {
+          "id": "soyasaus",
+          "ingredient": "Soyasaus",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "brokkoli",
+          "ingredient": "Brokkoli",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "tyttebar",
+          "ingredient": "Tyttebærsyltetøy",
+          "amount": 4,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Kjøttboller",
+        "instructions": [
+          "Finhakk {lok} og {hvitlok}.",
+          "Bland {brodsmuler} med {melk} og la det stå i 5 minutter til brødsmulene har absorbert væsken.",
+          "Bland {kjottdeig}, løk, hvitløk, {egg}, brødblanding, hakket {persille}, {muskat}, salt og pepper i en bolle.",
+          "Form deigen til kjøttboller, ca. 25-30 stykker.",
+          "Varm olje i en stor stekepanne på middels varme og stek kjøttbollene i flere omganger til de er gylne på alle sider og gjennomstekte, ca. 10-12 minutter per omgang.",
+          "Legg kjøttbollene på et fat og hold dem varme."
+        ]
+      },
+      {
+        "name": "Potetmos",
+        "instructions": [
+          "Skrell og del {potet} i like store biter.",
+          "Kok potetene i lettsaltet vann til de er møre, ca. 15-20 minutter.",
+          "Hell av vannet og damp potetene tørre et par minutter.",
+          "Mos potetene med en potetmoser eller gaffel.",
+          "Varm {melk} og {flote} i en liten kjele.",
+          "Rør inn varmt {smor} og den varme melkeblandingen i potetene til du får en glatt og kremet konsistens.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Brun saus",
+        "instructions": [
+          "Smelt {smor} i en kjele på middels varme.",
+          "Tilsett {hvetemel} og rør godt til du får en jevning.",
+          "Spe gradvis med {storfekraft} under konstant omrøring for å unngå klumper.",
+          "La sausen småkoke i 5-10 minutter til den tykner.",
+          "Tilsett {flotemelt} og {soyasaus}, og smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Tilbehør og servering",
+        "instructions": [
+          "Del {brokkoli} i buketter og damp eller kok lett i 3-4 minutter til den er mør men fortsatt har litt sprøhet.",
+          "Anrett potetmos på tallerkener, legg kjøttbollene ved siden av og hell over brun saus.",
+          "Server med dampet brokkoli og {tyttebar}."
+        ]
+      }
+    ]
   },
   {
     "id": 19,
     "name": "Grillet Paprika med Kremost",
-    "description": "Grilled chicken with stuffed bell peppers.",
-    "ingredients": [
-      "Chicken",
-      "Bell peppers",
-      "Cream cheese"
-    ],
-    "instructions": "Stuff bell peppers with cream cheese and grill with chicken."
+    "description": "Saftig grillet kylling servert med søte paprika fylt med kremost og urter. En fargerik og smakfull middagsrett som er enkel å tilberede.",
+    "servings": 4,
+    "prepTime": "35 min",
+    "ingredients": {
+      "Grillet kylling": [
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "id": "paprikapulver",
+          "ingredient": "Paprikapulver",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "hvitlokspulver",
+          "ingredient": "Hvitløkspulver",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitron",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ],
+      "Fylte paprika": [
+        {
+          "id": "paprika",
+          "ingredient": "Paprika (rød, gul og oransje)",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "kremost",
+          "ingredient": "Naturell kremost",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 1,
+          "unit": "fedd"
+        },
+        {
+          "id": "gresslok",
+          "ingredient": "Fersk gressløk",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "persille",
+          "ingredient": "Fersk persille",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "chilliflak",
+          "ingredient": "Chiliflak",
+          "amount": 0.5,
+          "unit": "ts"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Revet ost",
+          "amount": 100,
+          "unit": "g"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "salat",
+          "ingredient": "Blandet salat",
+          "amount": 1,
+          "unit": "pose"
+        },
+        {
+          "id": "brød",
+          "ingredient": "Focaccia eller ciabatta",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Forvarm ovnen til 200°C eller klargjør grillen til middels varme.",
+          "Del {paprika} i halvdeler på langs og fjern frø og skillevegger.",
+          "Finhakk {hvitlok}, {gresslok} og {persille}."
+        ]
+      },
+      {
+        "name": "Grillet kylling",
+        "instructions": [
+          "Bland {olivenolje}, saft fra halve {sitron}, {paprikapulver}, {hvitlokspulver}, salt og pepper i en bolle.",
+          "Vend {kyllingfilet} i marinaden og la den stå og trekke i 10-15 minutter.",
+          "Grill eller stek kyllingen i ca. 6-7 minutter på hver side til den er gjennomstekt og har en fin gyllen farge.",
+          "La kyllingen hvile i 5 minutter før servering."
+        ]
+      },
+      {
+        "name": "Fylte paprika",
+        "instructions": [
+          "Bland {kremost} med hakket hvitløk, gressløk, persille, {chilliflak}, salt og pepper.",
+          "Fyll hver paprikahalvdel med kremostblandingen.",
+          "Strø {ost} over paprikaene.",
+          "Bak i ovnen i 15-20 minutter, eller til paprikaen er mør og osten er gyllen og smeltet."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Skjær kyllingen i skiver og server med de fylte paprikahalvdelene.",
+          "Pynt med sitronbåter og server med {salat} og {brød}."
+        ]
+      }
+    ]
   },
   {
     "id": 20,
     "name": "Fylt Paprika",
-    "description": "Stuffed bell peppers with meat and rice.",
-    "ingredients": [
-      "Bell peppers",
-      "Ground beef",
-      "Rice"
-    ],
-    "instructions": "Fill peppers with meat and rice, then bake."
+    "description": "Fargerike paprika fylt med en smakfull blanding av kjøttdeig, ris og grønnsaker, toppet med smeltet ost. En komplett og tilfredsstillende middagsrett.",
+    "servings": 4,
+    "prepTime": "50 min",
+    "ingredients": {
+      "Fylte paprika": [
+        {
+          "id": "paprika",
+          "ingredient": "Store paprika (røde og gule)",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "ris",
+          "ingredient": "Langkornet ris",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "squash",
+          "ingredient": "Squash",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "tomat",
+          "ingredient": "Tomater",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpuré",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "paprikapulver",
+          "ingredient": "Paprikapulver",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "oregano",
+          "ingredient": "Tørket oregano",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Revet ost",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "buljongterning",
+          "ingredient": "Grønnsaksbuljongterning",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "cremefraiche",
+          "ingredient": "Crème fraîche",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "persille",
+          "ingredient": "Fersk persille",
+          "amount": 0.5,
+          "unit": "bunt"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Kok {ris} etter anvisning på pakken, men la den koke ca. 2 minutter kortere enn angitt så den forblir litt fast.",
+          "Del {paprika} i halvdeler på langs og fjern frø og skillevegger. Behold stilken på for et penere utseende.",
+          "Finhakk {lok}, {hvitlok} og {squash}.",
+          "Skåld {tomat}, fjern skinnet og hakk kjøttet grovt."
+        ]
+      },
+      {
+        "name": "Fyll",
+        "instructions": [
+          "Varm {olivenolje} i en stor stekepanne på middels varme.",
+          "Stek løk og hvitløk til de er myke, ca. 3-4 minutter.",
+          "Tilsett {kjottdeig} og brun den godt, ca. 5-6 minutter.",
+          "Tilsett squash, tomat, {tomatpure}, {paprikapulver} og {oregano}, og stek i ytterligere 3-4 minutter.",
+          "Smuldre inn {buljongterning} og rør godt.",
+          "Bland inn den kokte risen og halvparten av {ost}. Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Fylt paprika",
+        "instructions": [
+          "Legg paprikahalvdelene i en ildfast form og fyll dem med kjøtt- og risblandingen.",
+          "Strø resten av osten over.",
+          "Bak i ovnen i ca. 25-30 minutter, til paprikaene er møre og osten er gyllen og boblete."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Hakk {persille} fint.",
+          "Server de fylte paprikaene varme, toppet med hakket persille og en skje {cremefraiche} ved siden av."
+        ]
+      }
+    ]
   },
   {
     "id": 21,
     "name": "Grillet Kylling og Waldorfsalat",
-    "description": "Grilled chicken with Waldorf salad and roasted potatoes.",
-    "ingredients": [
-      "Chicken",
-      "Apple",
-      "Celery",
-      "Walnuts",
-      "Potatoes"
-    ],
-    "instructions": "Grill the chicken, make Waldorf salad, and roast the potatoes."
+    "description": "Saftig grillet kylling servert med klassisk Waldorfsalat og sprø, ovnsstekte poteter. En lettere men fyldig middagsrett med friske og knasende elementer.",
+    "servings": 4,
+    "prepTime": "60 min",
+    "ingredients": {
+      "Grillet kylling": [
+        {
+          "id": "kylling",
+          "ingredient": "Hel kylling",
+          "amount": 1.5,
+          "unit": "kg"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitron",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Fersk timian",
+          "amount": 4,
+          "unit": "kvister"
+        },
+        {
+          "id": "rosmarin",
+          "ingredient": "Fersk rosmarin",
+          "amount": 2,
+          "unit": "kvister"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ],
+      "Waldorfsalat": [
+        {
+          "id": "eple",
+          "ingredient": "Røde epler",
+          "amount": 2,
+          "unit": "stk"
+        },
+        {
+          "id": "selleri",
+          "ingredient": "Selleristang",
+          "amount": 3,
+          "unit": "stk"
+        },
+        {
+          "id": "valnoetter",
+          "ingredient": "Valnøtter",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "druer",
+          "ingredient": "Grønne druer",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "majones",
+          "ingredient": "Majones",
+          "amount": 0.5,
+          "unit": "dl"
+        },
+        {
+          "id": "cremefraiche",
+          "ingredient": "Crème fraîche",
+          "amount": 2,
+          "unit": "dl"
+        },
+        {
+          "id": "sitron",
+          "ingredient": "Sitronsaft",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "honning",
+          "ingredient": "Honning",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Ovnsstekte poteter": [
+        {
+          "id": "potet",
+          "ingredient": "Småpoteter",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Tørket timian",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "rosmarin",
+          "ingredient": "Tørket rosmarin",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Grillet kylling",
+        "instructions": [
+          "Forvarm ovnen til 200°C eller klargjør grillen til indirekte varme.",
+          "Skyll {kylling} godt og tørk den med kjøkkenpapir.",
+          "Skjær {sitron} i skiver og press {hvitlok}.",
+          "Gni kyllingen inn med olivenolje, presset hvitløk, salt og pepper både utvendig og i hulrommet.",
+          "Fyll kyllingens hulrom med sitronskiver, {timian} og {rosmarin}.",
+          "Bind sammen beina med hyssing og legg vingene under kyllingen.",
+          "Stek kyllingen i ovnen i ca. 1 time og 15 minutter, eller til kyllingen er gjennomstekt og saftig. Temperaturen i låret bør være 75°C.",
+          "Hvis du griller, bruk indirekte varme og stek med lokk i ca. 1 time og 30 minutter.",
+          "La kyllingen hvile i 10 minutter før du skjærer den opp."
+        ]
+      },
+      {
+        "name": "Waldorfsalat",
+        "instructions": [
+          "Rist {valnoetter} lett i en tørr stekepanne og hakk dem grovt.",
+          "Skjær {eple} i små terninger, men behold skallet for farge og næring.",
+          "Skjær {selleri} i tynne skiver.",
+          "Del {druer} i halve.",
+          "Bland {majones}, {cremefraiche}, {sitron} og {honning} i en stor bolle.",
+          "Vend forsiktig inn epler, selleri, druer og valnøtter.",
+          "Smak til med salt og pepper, og la salaten stå kjølig i minst 30 minutter så smakene får blande seg."
+        ]
+      },
+      {
+        "name": "Ovnsstekte poteter",
+        "instructions": [
+          "Vask {potet} godt og del dem i halvdeler.",
+          "Kok potetene lett i 5-7 minutter, så de ikke er helt gjennomkokte.",
+          "Hell av vannet og la potetene dampe tørre i et par minutter.",
+          "Legg potetene på et stekebrett og dryss over {olivenolje}, {timian}, {rosmarin}, salt og pepper.",
+          "Stek i ovnen i ca. 30-35 minutter til de er gylne og sprø. Bruk gjerne de siste 10 minuttene når kyllingen hviler."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Del kyllingen i serveringsstykker og legg dem på et fat.",
+          "Server med Waldorfsalat og ovnsstekte poteter.",
+          "Pynt med friske urter og sitronbåter."
+        ]
+      }
+    ]
   },
   {
     "id": 22,
     "name": "Baconsurret Kylling",
-    "description": "Bacon-wrapped chicken with cheese filling.",
-    "ingredients": [
-      "Chicken",
-      "Bacon",
-      "Cheese"
-    ],
-    "instructions": "Stuff chicken with cheese, wrap in bacon, and bake."
+    "description": "Saftige kyllingfileter fylt med kremost og urter, surret i sprøstekt bacon. En enkel men imponerende rett som ser like god ut som den smaker.",
+    "servings": 4,
+    "prepTime": "45 min",
+    "ingredients": {
+      "Baconsurret kylling": [
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "bacon",
+          "ingredient": "Bacon",
+          "amount": 12,
+          "unit": "skiver"
+        },
+        {
+          "id": "kremost",
+          "ingredient": "Naturell kremost",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "ost",
+          "ingredient": "Revet cheddar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "timian",
+          "ingredient": "Fersk timian",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "persille",
+          "ingredient": "Fersk persille",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 1,
+          "unit": "ss"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "id": "asparges",
+          "ingredient": "Asparges",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "cherrytomater",
+          "ingredient": "Cherrytomater",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Forvarm ovnen til 200°C.",
+          "Legg {kyllingfilet} på et skjærebrett og skjær et snitt langs siden av hver filet for å lage en lomme.",
+          "Press eller finhakk {hvitlok}.",
+          "Finhakk {timian} og {persille}."
+        ]
+      },
+      {
+        "name": "Fylling og surring",
+        "instructions": [
+          "Bland {kremost} med hvitløk, halvparten av {ost}, timian, persille, salt og pepper i en bolle.",
+          "Fyll lommen i hver kyllingfilet med kremostblandingen.",
+          "Legg 3 skiver {bacon} ved siden av hverandre på skjærebrettet, delvis overlappende.",
+          "Plasser en fylt kyllingfilet på enden av baconskivene og rull kyllingen inn i bacon.",
+          "Gjenta med resten av filetene.",
+          "Fest baconet med tannpirkere hvis nødvendig."
+        ]
+      },
+      {
+        "name": "Steking",
+        "instructions": [
+          "Varm {olivenolje} i en stor stekepanne som tåler ovn.",
+          "Stek de baconsurrede kyllingfiletene på alle sider til baconet begynner å bli gyllent.",
+          "Strø resten av osten over kyllingen og sett pannen i ovnen.",
+          "Stek i ca. 20-25 minutter til kyllingen er gjennomstekt (72°C i kjernen) og baconet er sprøtt."
+        ]
+      },
+      {
+        "name": "Tilbehør",
+        "instructions": [
+          "Skrell {potet} og kutt dem i like store biter. Kok dem møre i lettsaltet vann.",
+          "Vask og trim {asparges} og del dem i passende lengder.",
+          "Vask {cherrytomater} og del dem i halve.",
+          "Varm litt {olivenolje} i en stekepanne og stek asparges i 3-4 minutter. Tilsett tomatene de siste 30 sekundene.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Fjern tannpirkerne fra de baconsurrede kyllingfiletene.",
+          "Skjær hver filet i tykke skiver og server med kokte poteter, stekt asparges og cherrytomater."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Indisk à la Ece",
+    "description": "En smakfull indisk inspirert rett med kylling, krydder og en kremet saus laget med crème fraîche.",
+    "servings": 4,
+    "prepTime": "40 min",
+    "ingredients": {
+      "Indisk kyllinggryte": [
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "id": "varlok",
+          "ingredient": "Vårløk",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "chili",
+          "ingredient": "Rød chili",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "ingefar",
+          "ingredient": "Fersk ingefær",
+          "amount": 3,
+          "unit": "cm"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpuré",
+          "amount": 3,
+          "unit": "ss"
+        },
+        {
+          "id": "cremefraiche",
+          "ingredient": "Crème fraîche",
+          "amount": 3,
+          "unit": "dl"
+        },
+        {
+          "id": "garammasala",
+          "ingredient": "Garam masala",
+          "amount": 2,
+          "unit": "ts"
+        },
+        {
+          "id": "tandoorimasala",
+          "ingredient": "Tandoori masala",
+          "amount": 2,
+          "unit": "ts"
+        },
+        {
+          "id": "gurkemeie",
+          "ingredient": "Gurkemeie",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Fersk koriander",
+          "amount": 1,
+          "unit": "bunt"
+        },
+        {
+          "id": "olje",
+          "ingredient": "Nøytral olje",
+          "amount": 3,
+          "unit": "ss"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "basmatiris",
+          "ingredient": "Basmatiris",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "id": "naanbrod",
+          "ingredient": "Naanbrød",
+          "amount": 4,
+          "unit": "stk"
+        },
+        {
+          "id": "mango_chutney",
+          "ingredient": "Mango chutney",
+          "amount": 4,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Forberedelser",
+        "instructions": [
+          "Skjær {kyllingfilet} i store terninger.",
+          "Skyll og hakk {varlok}, både den hvite og grønne delen.",
+          "Finhakk {lok}, {chili} (fjern frø for mindre styrke), {ingefar} og {hvitlok}.",
+          "Grovhakk {koriander} og sett til side til servering."
+        ]
+      },
+      {
+        "name": "Indisk kyllinggryte",
+        "instructions": [
+          "Varm {olje} i en stor gryte eller dyp stekepanne på middels til høy varme.",
+          "Tilsett kyllingterningene og stek til de er gylne på alle sider, ca. 5-6 minutter. Ta ut og sett til side.",
+          "I samme panne, tilsett løk, vårløk (spar litt av den grønne delen til pynt), chili, ingefær og hvitløk.",
+          "Stek til løken er myk og gjennomsiktig, ca. 3-4 minutter.",
+          "Tilsett {tomatpure}, {garammasala}, {tandoorimasala} og {gurkemeie}. Stek i 1-2 minutter til krydderet dufter.",
+          "Ha kyllingen tilbake i pannen og rør godt så kjøttet blir dekket av krydderene.",
+          "Tilsett {cremefraiche} og rør forsiktig. La det småkoke på lav varme i ca. 10-15 minutter til sausen tykner litt og kyllingen er gjennomkokt.",
+          "Smak til med salt etter behov."
+        ]
+      },
+      {
+        "name": "Tilbehør",
+        "instructions": [
+          "Kok {basmatiris} etter anvisning på pakken.",
+          "Varm {naanbrod} i ovnen eller på en tørr stekepanne."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Server den indiske kyllinggryten over ris.",
+          "Strø over hakket fersk koriander og den resterende grønne delen av vårløken.",
+          "Server med varmt naanbrød og {mango_chutney} på siden."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Wraps med Reinsdyrskav",
+    "description": "Spenstig variant av fredagstacoen; wraps med saftig skav og syrlig tyttebærrømme. NAM! Vilt godt, fra naturen!",
+    "servings": 4,
+    "prepTime": "25 min",
+    "ingredients": {
+      "Reinsdyrskav": [
+        {
+          "id": "reinsdyrskav",
+          "ingredient": "Reinsdyrskav",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "lok",
+          "ingredient": "Gul løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "rosmarin",
+          "ingredient": "Fersk rosmarin",
+          "amount": 2,
+          "unit": "kvister"
+        },
+        {
+          "id": "einebar",
+          "ingredient": "Knuste einebær",
+          "amount": 1,
+          "unit": "ts"
+        },
+        {
+          "id": "viltkrydder",
+          "ingredient": "Viltkrydder",
+          "amount": 1,
+          "unit": "ts"
+        }
+      ],
+      "Tyttebærrømme": [
+        {
+          "id": "romme",
+          "ingredient": "Seterrømme",
+          "amount": 3,
+          "unit": "dl"
+        },
+        {
+          "id": "tyttebar",
+          "ingredient": "Tyttebær (ferske eller frosne)",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "honning",
+          "ingredient": "Honning",
+          "amount": 1,
+          "unit": "ss"
+        }
+      ],
+      "Wraps og tilbehør": [
+        {
+          "id": "tortillalefser",
+          "ingredient": "Tortillalefser",
+          "amount": 8,
+          "unit": "stk"
+        },
+        {
+          "id": "salat",
+          "ingredient": "Blandet salat",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "agurk",
+          "ingredient": "Agurk",
+          "amount": 0.5,
+          "unit": "stk"
+        },
+        {
+          "id": "rodlok",
+          "ingredient": "Rødløk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "paprika",
+          "ingredient": "Rød paprika",
+          "amount": 1,
+          "unit": "stk"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Tyttebærrømme",
+        "instructions": [
+          "Bland {romme}, {tyttebar} og {honning} i en bolle.",
+          "Mos tyttebærene litt med en gaffel slik at de blander seg med rømmen, men la noen være hele for tekstur.",
+          "Smak til med ekstra honning om ønskelig, og sett til side så smakene får blande seg."
+        ]
+      },
+      {
+        "name": "Reinsdyrskav",
+        "instructions": [
+          "Skjær {lok} i tynne båter.",
+          "Smelt {smor} i en stor stekepanne på høy varme.",
+          "Tilsett løk og stek til den blir myk og gjennomsiktig.",
+          "Legg i {reinsdyrskav} og stek raskt i 2-3 minutter. Unngå å steke for lenge da kjøttet fort blir tørt.",
+          "Dryss over {viltkrydder}, {einebar} og bladene fra {rosmarin}. Bland godt.",
+          "Smak til med salt og pepper."
+        ]
+      },
+      {
+        "name": "Forberedelser av tilbehør",
+        "instructions": [
+          "Skyll og tørk {salat}.",
+          "Skjær {agurk} i tynne skiver.",
+          "Skjær {rodlok} i tynne ringer.",
+          "Fjern frø og kjerne fra {paprika} og skjær den i tynne strimler.",
+          "Varm {tortillalefser} etter anvisning på pakken.",
+          "Skjær {rodlok} i tynne ringer.",
+          "Fjern frø og kjerne fra {paprika} og skjær den i tynne strimler.",
+          "Varm {tortillalefser} etter anvisning på pakken."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Legg en varm tortillalefsepå en tallerken.",
+          "Legg et par salatblader på lefsen.",
+          "Fordel reinsdyrskav, løk, agurk, rødløk og paprika over salaten.",
+          "Topp med en skje tyttebærrømme.",
+          "Brett inn sidene og rull sammen til en wrap.",
+          "Server umiddelbart mens kjøttet fortsatt er varmt."
+        ]
+      }
+    ]
   },
   {
     "id": 23,
@@ -892,21 +3160,86 @@
     "prepTime": "30 min",
     "ingredients": {
       "Hovedingredienser": [
-        {"id": "kyllingfilet", "ingredient": "Kyllingfilet", "amount": 400, "unit": "g"},
-        {"id": "løk", "ingredient": "Løk", "amount": 1, "unit": "stk"},
-        {"id": "hvitlok", "ingredient": "Hvitløk", "amount": 2, "unit": "fedd"},
-        {"id": "soltorkedetomat", "ingredient": "Soltørkede tomater", "amount": 100, "unit": "g"},
-        {"id": "tomatpure", "ingredient": "Tomatpuré", "amount": 2, "unit": "ss"},
-        {"id": "olivenolje", "ingredient": "Olivenolje", "amount": 2, "unit": "ss"},
-        {"id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 5, "unit": "dl"},
-        {"id": "kyllingkraft", "ingredient": "Kyllingkraft", "amount": 2.5, "unit": "dl"},
-        {"id": "maizena", "ingredient": "Maizena", "amount": 1, "unit": "ss"},
-        {"id": "vann", "ingredient": "Vann", "amount": 1, "unit": "dl"}
+        {
+          "id": "kyllingfilet",
+          "ingredient": "Kyllingfilet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "løk",
+          "ingredient": "Løk",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd"
+        },
+        {
+          "id": "soltorkedetomat",
+          "ingredient": "Soltørkede tomater",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "tomatpure",
+          "ingredient": "Tomatpuré",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "olivenolje",
+          "ingredient": "Olivenolje",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "kokosmelk",
+          "ingredient": "Kokosmelk",
+          "amount": 5,
+          "unit": "dl"
+        },
+        {
+          "id": "kyllingkraft",
+          "ingredient": "Kyllingkraft",
+          "amount": 2.5,
+          "unit": "dl"
+        },
+        {
+          "id": "maizena",
+          "ingredient": "Maizena",
+          "amount": 1,
+          "unit": "ss"
+        },
+        {
+          "id": "vann",
+          "ingredient": "Vann",
+          "amount": 1,
+          "unit": "dl"
+        }
       ],
       "Tilbehør": [
-        {"id": "byggryn", "ingredient": "Byggryn", "amount": 150, "unit": "g"},
-        {"id": "kyllingkraft_til_koking", "ingredient": "Kyllingkraft", "amount": 1, "unit": "dl"},
-        {"id": "koriander", "ingredient": "Koriander", "amount": 1, "unit": "bunt"}
+        {
+          "id": "byggryn",
+          "ingredient": "Byggryn",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "id": "kyllingkraft_til_koking",
+          "ingredient": "Kyllingkraft",
+          "amount": 1,
+          "unit": "dl"
+        },
+        {
+          "id": "koriander",
+          "ingredient": "Koriander",
+          "amount": 1,
+          "unit": "bunt"
+        }
       ]
     },
     "instructions": [
@@ -932,38 +3265,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": 26,
-    "name": "Indisk à la Ece",
-    "description": "En smakfull indisk inspirert rett med kylling, krydder og en kremet saus laget med crème fraîche.",
-    "ingredients": [
-      "Kylling",
-      "Vårløk",
-      "Løk",
-      "Chili",
-      "Ingefær",
-      "Tomatpuré",
-      "Crème fraîche",
-      "Garam masala",
-      "Tandoori masala",
-      "Gurkemeie"
-    ],
-    "instructions": "Stek kyllingen i en panne til den er gyllen. Tilsett hakket løk, vårløk, chili og ingefær, og fres til mykt. Rør inn tomatpuré og krydderne, og la det surre i noen minutter. Tilsett crème fraîche og la sausen småkoke til den tykner. Server med ris eller naan."
-  },
-  {
-    "id": 27,
-    "name": "Wraps med Reinsdyrskav",
-    "description": "Spenstig variant av fredagstacoen; wraps med saftig skav og syrlig tyttebærrømme. NAM! Vilt godt, fra naturen!",
-    "ingredients": [
-      "Reinsdyrskav",
-      "Wraps",
-      "Rømme",
-      "Tyttebær",
-      "Salat",
-      "Løk"
-    ],
-    "instructions": "Stek reinsdyrskavet i en panne til det er mørt. Bland rømme med tyttebær for en syrlig smak. Fyll wraps med kjøttet, salat, løk, og topp med tyttebærrømme. Server umiddelbart."
   },
   {
     "id": 28,
