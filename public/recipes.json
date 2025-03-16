@@ -887,13 +887,51 @@
   {
     "id": 25,
     "name": "Marry Me Chicken",
-    "description": "Creamy chicken with sun-dried tomatoes.",
-    "ingredients": [
-      "Chicken",
-      "Sun-dried tomatoes",
-      "Cream"
-    ],
-    "instructions": "Cook chicken in a creamy sauce with sun-dried tomatoes."
+    "description": "En kremet og smaksrik kyllingrett med soltørkede tomater, kokosmelk og en fyldig saus, servert med kokt byggryn og fersk persille. Perfekt for en imponerende middag!",
+    "servings": 2,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Hovedingredienser": [
+        {"id": "kyllingfilet", "ingredient": "Kyllingfilet", "amount": 400, "unit": "g"},
+        {"id": "løk", "ingredient": "Løk", "amount": 1, "unit": "stk"},
+        {"id": "hvitlok", "ingredient": "Hvitløk", "amount": 2, "unit": "fedd"},
+        {"id": "soltorkedetomat", "ingredient": "Soltørkede tomater", "amount": 100, "unit": "g"},
+        {"id": "tomatpure", "ingredient": "Tomatpuré", "amount": 2, "unit": "ss"},
+        {"id": "olivenolje", "ingredient": "Olivenolje", "amount": 2, "unit": "ss"},
+        {"id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 5, "unit": "dl"},
+        {"id": "kyllingkraft", "ingredient": "Kyllingkraft", "amount": 2.5, "unit": "dl"},
+        {"id": "maizena", "ingredient": "Maizena", "amount": 1, "unit": "ss"},
+        {"id": "vann", "ingredient": "Vann", "amount": 1, "unit": "dl"}
+      ],
+      "Tilbehør": [
+        {"id": "byggryn", "ingredient": "Byggryn", "amount": 150, "unit": "g"},
+        {"id": "kyllingkraft_til_koking", "ingredient": "Kyllingkraft", "amount": 1, "unit": "dl"},
+        {"id": "koriander", "ingredient": "Koriander", "amount": 1, "unit": "bunt"}
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Tilbehør",
+        "instructions": [
+          "Kok opp {byggryn} i {kyllingkraft_til_koking} og vann i ca. 20 minutter, til det er mørt.",
+          "Sil av overflødig væske."
+        ]
+      },
+      {
+        "name": "Marry Me Chicken",
+        "instructions": [
+          "Hakk {løk} og {hvitlok}, og fres i en panne med {olivenolje} til det blir gyllent.",
+          "Hakk og tilsett {soltorkedetomat} og stek videre i 1-2 minutter.",
+          "Ha i {tomatpure} og la det steke i et par minutter til.",
+          "Del {kyllingfilet} i to på langs for tynnere stykker.",
+          "Legg dem i pannen med resten av ingrediensene og stek til de får en brunfarge på begge sider.",
+          "Tilsett {kokosmelk} og {kyllingkraft}, kok opp og la småkoke i ca. 10 minutter.",
+          "Bland {maizena} med {vann} i en liten skål og rør det inn i sausen.",
+          "La retten kjøle seg ned og tykne litt før servering.",
+          "Topp retten med hakket {koriander} og server med {byggryn} ved siden av."
+        ]
+      }
+    ]
   },
   {
     "id": 26,
