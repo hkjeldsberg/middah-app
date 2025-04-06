@@ -577,90 +577,134 @@
     "id": 6,
     "name": "Dumplings",
     "description": "Saftige, dampede dumplings med aromatisk dipsaus. En enkel og smakfull rett som kan tilberedes på kort tid.",
-    "servings": 2,
-    "prepTime": "20 min",
+    "servings": 4,
+    "prepTime": "60 min",
     "ingredients": {
-      "Dumplings": [
+      "Deig": [
         {
-          "id": "dumplings",
-          "ingredient": "Frosne dumplings",
-          "amount": 400,
+          "id": "hvetemel",
+          "ingredient": "Hvetemel",
+          "amount": 300,
           "unit": "g"
         },
         {
           "id": "vann",
-          "ingredient": "Vann",
+          "ingredient": "Kokende vann",
+          "amount": 2.5,
+          "unit": "dl"
+        }
+      ],
+      "Dumplings": [
+        {
+          "id": "kjottdeig",
+          "ingredient": "Kjøttdeig",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "ingefar",
+          "ingredient": "Ingefær",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "hvitlok",
+          "ingredient": "Hvitløk",
+          "amount": 3,
+          "unit": "fedd"
+        },
+        {
+          "id": "ostersaus",
+          "ingredient": "Østersaus",
           "amount": 2,
           "unit": "dl"
         },
         {
-          "id": "olje",
-          "ingredient": "Nøytral olje",
-          "amount": 2,
-          "unit": "ss"
-        }
-      ],
-      "Dipsaus": [
-        {
-          "id": "soyasaus",
-          "ingredient": "Soyasaus",
-          "amount": 4,
-          "unit": "ss"
-        },
-        {
-          "id": "riseddik",
-          "ingredient": "Riseddik",
+          "id": "kraft",
+          "ingredient": "Kjøttkraft",
           "amount": 1,
-          "unit": "ss"
-        },
-        {
-          "id": "sesamolje",
-          "ingredient": "Sesamolje",
-          "amount": 1,
-          "unit": "ts"
-        },
-        {
-          "id": "ingefar",
-          "ingredient": "Fersk ingefær",
-          "amount": 1,
-          "unit": "ts"
+          "unit": "dl"
         },
         {
           "id": "chili",
           "ingredient": "Rød chili",
-          "amount": 0.5,
+          "amount": 1,
           "unit": "stk"
         },
         {
           "id": "varlok",
           "ingredient": "Vårløk",
           "amount": 1,
-          "unit": "stk"
+          "unit": "bunt"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "hoisin",
+          "ingredient": "Hoisinsaus",
+          "amount": 1,
+          "unit": "dl"
+        },
+        {
+          "id": "soyasaus",
+          "ingredient": "Soyasaus",
+          "amount": 0.5,
+          "unit": "dl"
+        },
+        {
+          "id": "sesamfro",
+          "ingredient": "Sesamfrø",
+          "amount": 2,
+          "unit": "ss"
+        },
+        {
+          "id": "bonnespirer",
+          "ingredient": "bønnespirer",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "id": "rokost",
+          "ingredient": "Råkostsalat",
+          "amount": 200,
+          "unit": "g"
         }
       ]
     },
     "instructions": [
       {
-        "name": "Dipsaus",
+        "name": "Deig",
         "instructions": [
-          "Finhakk {ingefar}, {chili} og {varlok}.",
-          "Bland {soyasaus}, {riseddik} og {sesamolje} i en liten skål.",
-          "Tilsett den hakkede ingefæren, chilien og vårløken.",
-          "La sausen stå og trekke mens du tilbereder dumplingene."
+          "Ha {hvetemel} i en bolle og hell over {vann}.",
+          "Bland godt sammen med en sleiv og legg deigen på melet bakebord.",
+          "Kna inn melk til at deigen er fast og smidig, og form deigen til en bolle.",
+          "Dekk deigen med plastfolie, og la den hvilke i kjøleskapet i ca. 30 minutter.",
+          "Kjevle ut deigen på melet underlag, og skjær ut sirkler på ca. 6 cm.",
+          "Kjevl sirklene ekstra tynne."
         ]
       },
       {
         "name": "Tilberede dumplings",
         "instructions": [
-          "Varm opp en stekepanne med {olje} på middels til høy varme.",
-          "Legg {dumplings} i pannen og stek dem i 2-3 minutter til de får en gyllen underside.",
-          "Hell {vann} forsiktig i pannen (forsiktig, det vil sprute), og sett på lokk med en gang.",
-          "Reduser varmen til middels og la dumplingene dampe i 8-10 minutter til vannet er fordampet og de er gjennomvarme.",
-          "Server dumplingene varme med dipsausen."
+          "Grovhakk {chili}, {ingefar}, {hvitlok}, og bland inn {ostersaus}.",
+          "Kjør blandingen i en kjøkkenmaskin, og bland inn {kjottdeig} og salt.",
+          "Finhakk {varlok}, og grovhakk {kraft}, og vend inn i blandingen.",
+          "Legg en full teskje med deig på hver av sirkelene (deigen) og fold tett sammen i toppen.",
+          "Bruk gjerne ltit vann på kanten slik at endene klistrer seg sammen.",
+          "Damp dumplingene i en bambus-streamer i ca. 8 minutter.",
+          "Alternativ: stek de i olje til de er bruke, hell i litt vann og sett på lokk. La vannet fordampe før det er klart."
+        ]
+      },
+      {
+        "name": "Tilbehør",
+        "instructions": [
+          "Rør sammen {hoisin}, {soyasaus} og {sesamfro} og server til dumplingene.",
+          "Server også med finhakket {rokost} og {bonnespirer}."
         ]
       }
     ]
   },
+
   {
     "id": 7,
     "name": "Ramen",
