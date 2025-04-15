@@ -704,7 +704,6 @@
       }
     ]
   },
-
   {
     "id": 7,
     "name": "Ramen",
@@ -3519,6 +3518,85 @@
         "instructions": [
           "Oppbevar i en tett boks. De er holdbare i flere uker.",
           "Nyt med pålegg, som tilbehør til suppe eller ost – eller alene!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Biffsnadder med potetmos",
+    "description": "En klassisk og smakfull hverdagsmiddag med mørt biffkjøtt, grønnsaker og ananas i kjøttsaus, servert med kremet potetmos.",
+    "servings": 4,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Biffsnadder": [
+        {
+          "id": "biff",
+          "ingredient": "Biff i strimer",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "id": "sjampinjong",
+          "ingredient": "Sjampinjong",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "id": "sjalottlok",
+          "ingredient": "Sjalottløk",
+          "amount": 8,
+          "unit": "stk"
+        },
+        {
+          "id": "paprika",
+          "ingredient": "Paprika",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "ananas",
+          "ingredient": "Ananas",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
+          "id": "kraft",
+          "ingredient": "Kjøttkraft",
+          "amount": 2,
+          "unit": "dl"
+        }
+      ],
+      "Tilbehør": [
+        {
+          "id": "potet",
+          "ingredient": "Poteter",
+          "amount": 8,
+          "unit": "stk"
+        },
+        {
+          "id": "smor",
+          "ingredient": "Smør",
+          "amount": 4,
+          "unit": "ss"
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Biffsnadder",
+        "instructions": [
+          "Stek {biff} i en varm panne med litt olje til det er brunet, og sett det til side.",
+          "Brun hakket {sjampinjong}, {sjalottlok} og {paprika} i olje, og fres videre til grønnsakene er møre.",
+          "Vend inn {ananas} kuttet i terninger, {kraft}, salt og pepper, og la det småkoke i noen minutter."
+        ]
+      },
+      {
+        "name": "Potetmos",
+        "instructions": [
+          "Kutt opp {potet} og kok det mørt i en kjele",
+          "Tilsett {smor}, og bland godt inn.",
+          "Smak til med salt og pepper."
         ]
       }
     ]
