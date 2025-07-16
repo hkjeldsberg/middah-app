@@ -3600,6 +3600,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 31,
+    "name": "Fiskesuppe med reker og karri",
+    "description": "En kremet fiskesuppe med både fisk og reker, fylt med grønnsaker og smakssatt med karri og urter. Perfekt som en varmende middag.",
+    "servings": 4,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Fisk og sjømat": [
+        {"id": "fisk", "ingredient": "Hvit fisk", "amount": 400, "unit": "g"},
+        {"id": "reker", "ingredient": "Reker", "amount": 200, "unit": "g"}
+      ],
+      "Grønnsaker": [
+        {"id": "gulrot", "ingredient": "Gulrøtter", "amount": 3, "unit": "stk"},
+        {"id": "persillerot", "ingredient": "Persillerot", "amount": 1, "unit": "stk"},
+        {"id": "purre", "ingredient": "Purre", "amount": 0.5, "unit": "stk"},
+        {"id": "lok", "ingredient": "Løk", "amount": 2, "unit": "stk"},
+        {"id": "chilli", "ingredient": "Chilli", "amount": 0.5, "unit": "stk"}
+      ],
+      "Suppebase": [
+        {"id": "olje", "ingredient": "Olivenolje", "amount": 2, "unit": "ss"},
+        {"id": "fiskekraft", "ingredient": "Fiskekraft", "amount":5, "unit": "dl"},
+        {"id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 2, "unit": "dl"},
+        {"id": "karri", "ingredient": "Karri", "amount": 1, "unit": "ts"},
+        {"id": "persille", "ingredient": "Persille eller dill", "amount": 1, "unit": "bunt"}
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Tilbrede grønnsaker",
+        "instructions": [
+          "Hakk opp {chilli} og {lok}, og fres i {olje} i en panne.",
+          "Skjær {gulrot} og {persillerot} i biter.",
+          "Tilsett grønnsakene i suppen, sammen med {fiskekraft} og la småkoke i 15 minutter."
+        ]
+      },
+      {
+        "name": "Tilsette fisk og reker",
+        "instructions": [
+          "Skjær {fisk} i terninger og ha i suppen sammen med {reker} og {purre} i skiver.",
+          "La suppen trekke i ca. 5 minutter til fisken er gjennomkokt.",
+          "Smak til suppen med {karri}, salt og pepper.",
+          "Server suppen rykende varm med hakket {persille} toppen."
+        ]
+      }
+    ]
   }
 ]
 
