@@ -3646,6 +3646,50 @@
         ]
       }
     ]
+  },
+  {
+    "id": 32,
+    "name": "Heimelaget Tomatsuppe",
+    "description": "Ei fyldig og varmende tomatsuppe laga frå botnen av med hakka tomater, tomatpuré og smakfull kraft. Serverast med egg og kjøttbollar for ein ekstra mettande middag med eit hint av sødme frå honning og ein liten chilispiss.",
+    "servings": 4,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Grunnbase": [
+        {"id": "tomater", "ingredient": "Hakka tomater", "amount": 800, "unit": "g"},
+        {"id": "tomatpure", "ingredient": "Tomatpuré", "amount": 2, "unit": "ss"},
+        {"id": "kraft", "ingredient": "Grønnsaks- eller kyllingkraft", "amount": 5, "unit": "dl"}
+      ],
+      "Grønt og smak": [
+        {"id": "lok", "ingredient": "Løk", "amount": 1, "unit": "stk"},
+        {"id": "hvitlok", "ingredient": "Hvitløk", "amount": 2, "unit": "fedd"},
+        {"id": "paprika", "ingredient": "Spiss paprika", "amount": 1, "unit": "stk"},
+        {"id": "chilli", "ingredient": "Chili", "amount": 0.5, "unit": "stk"},
+        {"id": "honning", "ingredient": "Honning", "amount": 1, "unit": "ts"}
+      ],
+      "Til servering": [
+        {"id": "egg", "ingredient": "Egg", "amount": 4, "unit": "stk, kokt"},
+        {"id": "kjottboller", "ingredient": "Kjøttboller", "amount": 300, "unit": "g"}
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Lag suppebase",
+        "instructions": [
+          "Hakk {lok}, {hvitlok}, {paprika} og {chilli}.",
+          "Fres {lok} og {hvitlok} i litt olivenolje til det blir mjukt og gyllent.",
+          "Tilsett {paprika}, {chilli} og {tomatpure}, og steik vidare i eit par minutt.",
+          "Ha i {tomater}, {honning} og {kraft}. Kok opp og la det småkoke i 10-15 minutt."
+        ]
+      },
+      {
+        "name": "Blend og tilpass",
+        "instructions": [
+          "Bruk stavmiksar for å gjere suppa jamn.",
+          "Smak til med salt, pepar og eventuelt meir {honning} eller {chilli}.",
+          "Server suppa rykande varm med halve {egg}, varme {kjottboller} og med et dryss av basilikum."
+        ]
+      }
+    ]
   }
 ]
 
