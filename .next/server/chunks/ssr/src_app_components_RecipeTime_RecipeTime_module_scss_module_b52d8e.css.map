@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/components/RecipeTime/RecipeTime.module.scss.module.css"],"sourcesContent":[".recipeTime{display:flex;text-align:right;justify-content:center;padding:.5rem 0}.recipeTime .recipeTimeText{width:max-content}.recipeTime .recipeIcon{width:max-content;display:flex;align-items:center}.recipeTime .recipeIcon .recipeIconImage{margin-right:.5rem}"],"names":[],"mappings":"AAAA;;;;;;;AAAiF;;;;AAA8C;;;;;;AAA0E"}},
-    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
