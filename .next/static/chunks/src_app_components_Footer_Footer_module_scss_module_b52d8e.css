@@ -1,0 +1,31 @@
+/* [project]/src/app/components/Footer/Footer.module.scss.module.css [app-client] (css) */
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerName {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerLinks {
+  display: flex;
+}
+
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerLinks .Footer-module-scss-module__K1pO7W__footerLink {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerLinks a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerLinks a img {
+  margin-right: .2rem;
+}
+
+.Footer-module-scss-module__K1pO7W__containerFooter .Footer-module-scss-module__K1pO7W__footerLinks a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=src_app_components_Footer_Footer_module_scss_module_b52d8e.css.map*/

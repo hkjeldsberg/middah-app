@@ -1,0 +1,23 @@
+/* [project]/src/app/components/RecipeTime/RecipeTime.module.scss.module.css [app-client] (css) */
+.RecipeTime-module-scss-module__wL6P4G__recipeTime {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  padding: .5rem 0;
+}
+
+.RecipeTime-module-scss-module__wL6P4G__recipeTime .RecipeTime-module-scss-module__wL6P4G__recipeTimeText {
+  width: max-content;
+}
+
+.RecipeTime-module-scss-module__wL6P4G__recipeTime .RecipeTime-module-scss-module__wL6P4G__recipeIcon {
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.RecipeTime-module-scss-module__wL6P4G__recipeTime .RecipeTime-module-scss-module__wL6P4G__recipeIcon .RecipeTime-module-scss-module__wL6P4G__recipeIconImage {
+  margin-right: .5rem;
+}
+
+/*# sourceMappingURL=src_app_components_RecipeTime_RecipeTime_module_scss_module_b52d8e.css.map*/
