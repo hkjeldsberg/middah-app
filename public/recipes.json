@@ -3690,6 +3690,159 @@
         ]
       }
     ]
+  },
+  {
+    "id": 33,
+    "name": "Pistasjkuler med sjokoladetrekk",
+    "description": "Rå, søte og næringsrike pistasjkuler laget med nøtter og dadler, trukket i mørk sjokolade og toppet med hakkede pistasjnøtter og havsalt. Perfekt som sunn snack eller dessert!",
+    "servings": 12,
+    "prepTime": "25 min",
+    "ingredients": {
+      "Kuler": [
+        {"id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 2, "unit": "dl"},
+        {"id": "pistasj", "ingredient": "Pistasjnøtter (uten skall)", "amount": 1, "unit": "dl"},
+        {"id": "cashew", "ingredient": "Cashewnøtter", "amount": 1, "unit": "dl"},
+        {"id": "vanilje", "ingredient": "Vaniljepulver", "amount": 0.5, "unit": "ts"},
+        {"id": "dadler", "ingredient": "Dadler (uten stein)", "amount": 5, "unit": "stk"}
+      ],
+      "Sjokoladetrekk": [
+        {"id": "kakao", "ingredient": "Kakaopulver", "amount": 2, "unit": "dl"},
+        {"id": "honning", "ingredient": "Honning", "amount": 2, "unit": "ss"},
+        {"id": "kokosolje", "ingredient": "Kokosolje", "amount": 5, "unit": "ss"}
+      ],
+      "Topping": [
+        {"id": "pistasj_topping", "ingredient": "Hakkede pistasjnøtter", "amount": 1, "unit": "håndfull"},
+        {"id": "flaksalt", "ingredient": "Flaksalt / havsalt", "amount": 1, "unit": "klype"}
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Lag kulene",
+        "instructions": [
+          "Ha {kokosmelk}, {pistasj}, {cashew}, {vanilje} og {dadler} i en blender eller foodprosessor.",
+          "Kjør til du får en jevn og fast kremete masse.",
+          "Sett i fryser i 15-20 minutter for å gjøre massen enklere å trille.",
+          "Form til små kuler med hendene. Sett til side."
+        ]
+      },
+      {
+        "name": "Lag sjokoladetrekket",
+        "instructions": [
+          "Smelt {kokosolje} på lav varme i en liten kjele.",
+          "Rør inn {kakao} og {honning} til du får en tykk og jevn sjokoladeblanding. Tilsett ekstra kakao om nødvendig for å får en tykk sjokolademasse"
+        ]
+      },
+      {
+        "name": "Dypp og pynt",
+        "instructions": [
+          "Dypp kulene i sjokoladen og legg dem på et brett med bakepapir.",
+          "Dryss over {pistasj_topping} og {flaksalt} før sjokoladen stivner.",
+          "Sett i kjøleskap i minst 20 minutter før servering."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Eplewrap med brunostsaus",
+    "description": "En lun og søt dessert-wrap fylt med karamelliserte epler og toppet med silkemyk brunostsaus. Perfekt høstdessert med norsk vri.",
+    "servings": 2,
+    "prepTime": "20 min",
+    "ingredients": {
+      "Fyll": [
+        { "id": "epler", "ingredient": "Epler", "amount": 2, "unit": "stk", "note": "skrelt og i skiver" },
+        { "id": "smor", "ingredient": "Smør", "amount": 1, "unit": "ss" },
+        { "id": "sukker", "ingredient": "Sukker", "amount": 1, "unit": "ss" },
+        { "id": "kanel", "ingredient": "Kanel", "amount": 0.5, "unit": "ts" }
+      ],
+      "Saus": [
+        { "id": "brunost", "ingredient": "Brunost", "amount": 50, "unit": "g", "note": "i biter" },
+        { "id": "flote", "ingredient": "Fløte", "amount": 1, "unit": "dl" }
+      ],
+      "Servering": [
+        { "id": "wraps", "ingredient": "Wraps", "amount": 2, "unit": "stk" },
+        { "id": "topping", "ingredient": "Ekstra brunost eller kanel", "amount": "etter ønske", "unit": "" }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Karamelliser eplene",
+        "instructions": [
+          "Smelt {smor} i en stekepanne på middels varme.",
+          "Tilsett {sukker} og {kanel}, og rør sammen.",
+          "Ha i {epler} og stek til de er myke og karamelliserte, ca. 5–7 minutter."
+        ]
+      },
+      {
+        "name": "Lag brunostsaus",
+        "instructions": [
+          "Varm opp {flote} i en liten kjele.",
+          "Tilsett {brunost} og rør til det smelter og blir en jevn saus."
+        ]
+      },
+      {
+        "name": "Montering og servering",
+        "instructions": [
+          "Legg eplefyllet midt på hver {wraps}.",
+          "Drypp over brunostsaus og rull wrapen sammen.",
+          "Server straks med ekstra {topping} hvis ønskelig."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Tom Kha Gai",
+    "description": "En klassisk, kremet og syrlig thailandsk suppe laget med kylling, kokosmelk, sitrongress, sopp og chili. Perfekt balansert mellom søtt, salt, surt og sterkt – en smakfull middag for 2–3 personer. Serveres gjerne med en frisk thai agurksalat.",
+    "servings": 3,
+    "prepTime": "30 min",
+    "ingredients": {
+      "Suppebase": [
+        { "id": "kyllingkraft", "ingredient": "Kyllingkraft", "amount": 5, "unit": "dl" },
+        { "id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 4, "unit": "dl" },
+        { "id": "sitrongress", "ingredient": "Sitrongress", "amount": 1, "unit": "stilk", "note": "knust og delt i biter" },
+        { "id": "ingefaer", "ingredient": "Ingefær", "amount": 1, "unit": "ss", "note": "i tynne skiver" },
+        { "id": "chili", "ingredient": "Rød chili", "amount": 1, "unit": "stk", "note": "skivet, evt. fjern frø for mindre styrke" }
+      ],
+      "Hovedingredienser": [
+        { "id": "kylling", "ingredient": "Kyllingfilet", "amount": 300, "unit": "g", "note": "i tynne skiver" },
+        { "id": "aromasopp", "ingredient": "Aromasopp", "amount": 150, "unit": "g", "note": "i skiver" },
+        { "id": "vaarlok", "ingredient": "Vårløk", "amount": 2, "unit": "stk", "note": "i skiver" }
+      ],
+      "Smakstilsetning": [
+        { "id": "fishsauce", "ingredient": "Fiskesaus", "amount": 2, "unit": "ss" },
+        { "id": "bruntsukker", "ingredient": "Brunt sukker", "amount": 1, "unit": "ts" },
+        { "id": "lime", "ingredient": "Limejuice", "amount": 1, "unit": "ss", "note": "eller etter smak" }
+      ],
+      "Servering": [
+        { "id": "thai_agurksalat", "ingredient": "Thai agurksalat", "amount": "etter ønske", "unit": "", "note": "som tilbehør" }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Lag suppebase",
+        "instructions": [
+          "Ha {kyllingkraft}, {kokosmelk}, {sitrongress}, {ingefaer} og {chili} i en gryte.",
+          "Kok opp og la det småkoke i 10 minutter for å trekke smak."
+        ]
+      },
+      {
+        "name": "Tilsett hovedingredienser",
+        "instructions": [
+          "Ha i {kylling}, {aromasopp} og {vaarlok}.",
+          "La suppen småkoke i 8–10 minutter til kyllingen er gjennomkokt og soppen mør."
+        ]
+      },
+      {
+        "name": "Smak til og server",
+        "instructions": [
+          "Tilsett {fishsauce}, {bruntsukker} og {lime} etter smak.",
+          "Fjern {sitrongress}-bitene hvis ønskelig før servering.",
+          "Server varm med {thai_agurksalat} som tilbehør."
+        ]
+      }
+    ],
+    "tags": ["thai", "suppe", "kylling", "asiatisk", "kokosmelk", "glutenfri"]
   }
 ]
 
