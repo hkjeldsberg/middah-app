@@ -3815,7 +3815,7 @@
         { "id": "lime", "ingredient": "Limejuice", "amount": 1, "unit": "ss", "note": "eller etter smak" }
       ],
       "Servering": [
-        { "id": "thai_agurksalat", "ingredient": "Thai agurksalat", "amount": "etter ønske", "unit": "", "note": "som tilbehør" }
+        { "id": "thai_agurksalat", "ingredient": "Thai agurksalat", "amount": 2, "unit": "", "note": "som tilbehør" }
       ]
     },
     "instructions": [
