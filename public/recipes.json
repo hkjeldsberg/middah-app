@@ -3699,7 +3699,7 @@
     "prepTime": "25 min",
     "ingredients": {
       "Kuler": [
-        {"id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 2, "unit": "dl"},
+        {"id": "kokoskrem", "ingredient": "Kokoskrem", "amount": 2, "unit": "dl"},
         {"id": "pistasj", "ingredient": "Pistasjnøtter (uten skall)", "amount": 1, "unit": "dl"},
         {"id": "cashew", "ingredient": "Cashewnøtter", "amount": 1, "unit": "dl"},
         {"id": "vanilje", "ingredient": "Vaniljepulver", "amount": 0.5, "unit": "ts"},
@@ -3719,7 +3719,7 @@
       {
         "name": "Lag kulene",
         "instructions": [
-          "Ha {kokosmelk}, {pistasj}, {cashew}, {vanilje} og {dadler} i en blender eller foodprosessor.",
+          "Ha {kokoskrem}, {pistasj}, {cashew}, {vanilje} og {dadler} i en blender eller foodprosessor.",
           "Kjør til du får en jevn og fast kremete masse.",
           "Sett i fryser i 15-20 minutter for å gjøre massen enklere å trille.",
           "Form til små kuler med hendene. Sett til side."
