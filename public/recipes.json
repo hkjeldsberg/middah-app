@@ -3760,8 +3760,7 @@
         { "id": "flote", "ingredient": "Fløte", "amount": 1, "unit": "dl" }
       ],
       "Servering": [
-        { "id": "wraps", "ingredient": "Wraps", "amount": 2, "unit": "stk" },
-        { "id": "topping", "ingredient": "Ekstra brunost eller kanel", "amount": "etter ønske", "unit": "" }
+        { "id": "wraps", "ingredient": "Wraps", "amount": 2, "unit": "stk" }
       ]
     },
     "instructions": [
@@ -3785,7 +3784,7 @@
         "instructions": [
           "Legg eplefyllet midt på hver {wraps}.",
           "Drypp over brunostsaus og rull wrapen sammen.",
-          "Server straks med ekstra {topping} hvis ønskelig."
+          "Server straks med ekstra kanel eller saus hvis ønskelig."
         ]
       }
     ]
@@ -3802,7 +3801,8 @@
         { "id": "kokosmelk", "ingredient": "Kokosmelk", "amount": 4, "unit": "dl" },
         { "id": "sitrongress", "ingredient": "Sitrongress", "amount": 1, "unit": "stilk", "note": "knust og delt i biter" },
         { "id": "ingefaer", "ingredient": "Ingefær", "amount": 1, "unit": "ss", "note": "i tynne skiver" },
-        { "id": "chili", "ingredient": "Rød chili", "amount": 1, "unit": "stk", "note": "skivet, evt. fjern frø for mindre styrke" }
+        { "id": "chili", "ingredient": "Rød chili", "amount": 1, "unit": "stk", "note": "skivet, evt. fjern frø for mindre styrke" },
+        { "id": "sjalott", "ingredient": "Sjalottløk", "amount": 4, "unit": "stk" }
       ],
       "Hovedingredienser": [
         { "id": "kylling", "ingredient": "Kyllingfilet", "amount": 300, "unit": "g", "note": "i tynne skiver" },
@@ -3815,14 +3815,17 @@
         { "id": "lime", "ingredient": "Limejuice", "amount": 1, "unit": "ss", "note": "eller etter smak" }
       ],
       "Servering": [
-        { "id": "thai_agurksalat", "ingredient": "Thai agurksalat", "amount": 2, "unit": "", "note": "som tilbehør" }
+        { "id": "byggryn", "ingredient": "Byggryn", "amount": 200, "unit": "g" },
+        { "id": "varlok", "ingredient": "Vårløk", "amount": 2, "unit": "stk" },
+        { "id": "koriander", "ingredient": "Koriander", "amount": 1, "unit": "bunt"}
       ]
     },
     "instructions": [
       {
         "name": "Lag suppebase",
         "instructions": [
-          "Ha {kyllingkraft}, {kokosmelk}, {sitrongress}, {ingefaer} og {chili} i en gryte.",
+          "Fres {sjalott} og {chili} i olivenolje i en gryte.",
+          "Tilsett {kyllingkraft}, {kokosmelk}, {sitrongress} og {ingefaer}.",
           "Kok opp og la det småkoke i 10 minutter for å trekke smak."
         ]
       },
@@ -3837,12 +3840,11 @@
         "name": "Smak til og server",
         "instructions": [
           "Tilsett {fishsauce}, {bruntsukker} og {lime} etter smak.",
-          "Fjern {sitrongress}-bitene hvis ønskelig før servering.",
-          "Server varm med {thai_agurksalat} som tilbehør."
+          "Fjern {sitrongress}-bitene hvis ønskelig før servering, og topp med {varlok} og {koriander}.",
+          "Server varm med {byggryn} som tilbehør."
         ]
       }
-    ],
-    "tags": ["thai", "suppe", "kylling", "asiatisk", "kokosmelk", "glutenfri"]
+    ]
   }
 ]
 
