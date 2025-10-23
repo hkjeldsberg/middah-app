@@ -6,6 +6,7 @@ import {Recipe} from '@/app/models/Recipe';
 import React, {useEffect, useState} from "react";
 import {lora} from "@/app/Utils";
 import {RecipeTime} from "@/app/components/RecipeTime/RecipeTime";
+import KeepAwakeToggle from "@/app/components/KeepAwakeToggle/KeepAwakeToggle";
 
 
 export const RecipeInfo = () => {
@@ -81,6 +82,7 @@ export const RecipeInfo = () => {
                 className={styles.recipeImage}
             />
 
+
             <div className={styles.recipeContainer}>
 
                 <div className={styles.recipeIngredients}>
@@ -122,7 +124,10 @@ export const RecipeInfo = () => {
 
                 <div className={styles.recipeInstructions}>
                     <h1 className={`${lora.className}`}>{recipe.name}</h1>
-                    <RecipeTime prepTime={recipe.prepTime}/>
+                    <div className={styles.recipeTimeAndButton}>
+                        <RecipeTime prepTime={recipe.prepTime}/>
+                        <KeepAwakeToggle/>
+                    </div>
 
                     {recipe.instructions && recipe.instructions.map((section) => (
                         <div key={section.name}>
