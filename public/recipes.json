@@ -3845,6 +3845,70 @@
         ]
       }
     ]
+  },
+  {
+    "id": 36,
+    "name": "Aktiv surdeigsstarter og surdeigsbrød",
+    "description": "Et luftig og smakfullt surdeigsbrød laget med en aktiv surdeigsstarter. Dette eltefrie brødet får en fin skorpe og saftig innside, og gir deg ekte bakelykke med få ingredienser.",
+    "servings": 1,
+    "prepTime": "24 timer",
+    "ingredients": {
+      "Starter (aktivering)": [
+        { "ingredient": "Surdeigsstarter", "amount": 50, "unit": "g" },
+        { "ingredient": "Hvetemel", "amount": 50, "unit": "g" },
+        { "ingredient": "Vann", "amount": 50, "unit": "g" }
+      ],
+      "Deig": [
+        { "ingredient": "Hvetemel", "amount": 400, "unit": "g" },
+        { "ingredient": "Grov sammalt hvete eller rug", "amount": 100, "unit": "g" },
+        { "ingredient": "Vann", "amount": 375, "unit": "g", "note": "kaldt vann, ca. 75% hydrasjon" },
+        { "ingredient": "Aktiv surdeigsstarter", "amount": 100, "unit": "g" },
+        { "ingredient": "Salt", "amount": 10, "unit": "g" }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Aktivering av starter",
+        "instructions": [
+          "Bland surdeigsstarter, mel og vann (1:1:1) for å aktivere starteren.",
+          "La stå i 4–8 timer til den bobler og har doblet seg."
+        ]
+      },
+      {
+        "name": "Bland deigen",
+        "instructions": [
+          "Bland vann og aktiv starter. Sjekk at starteren flyter – da er den aktiv.",
+          "Rør inn melet og bland raskt til en klissete deig."
+        ]
+      },
+      {
+        "name": "Autolyse og salt",
+        "instructions": [
+          "La stå i 1 time (autolyse).",
+          "Dryss over salt og kna det inn med våte hender."
+        ]
+      },
+      {
+        "name": "Strekk og brett",
+        "instructions": [
+          "Strekk og brett deigen hver 30. minutt, 2–3 ganger."
+        ]
+      },
+      {
+        "name": "Forming og kaldheving",
+        "instructions": [
+          "Form brødet på benken med litt mel.",
+          "Legg det i en hevekurv, dekk til, og la det kaldheve i kjøleskapet over natten."
+        ]
+      },
+      {
+        "name": "Steking",
+        "instructions": [
+          "Neste morgen: forvarm ovn til 240°C.",
+          "Snitt brødet og stek det i gryte eller med damp i 20 min. Deretter på 200°C til det har en kjernetemperatur på ca. 98°C."
+        ]
+      }
+    ]
   }
 ]
 
