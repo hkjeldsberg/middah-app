@@ -3937,9 +3937,7 @@
         { "id": "sitron_dressing", "ingredient": "Sitronjuice", "amount": 1, "unit": "ss" },
         { "id": "olivenolje_dressing", "ingredient": "Olivenolje", "amount": 1, "unit": "ss" },
         { "id": "hvitlok_pulver_dressing", "ingredient": "Hvitløkspulver", "amount": 0.5, "unit": "ts" },
-        { "id": "urter", "ingredient": "Rosmarin eller timian", "amount": 0.5, "unit": "ts" },
-        { "id": "salt_dressing", "ingredient": "Salt", "amount": "etter smak", "unit": "" },
-        { "id": "pepper_dressing", "ingredient": "Pepper", "amount": "etter smak", "unit": "" }
+        { "id": "urter", "ingredient": "Rosmarin eller timian", "amount": 0.5, "unit": "ts" }
       ]
     },
     "instructions": [
@@ -3947,14 +3945,14 @@
         "name": "Marinering",
         "instructions": [
           "Bland {olivenolje}, {sitron_marinade}, {soyasaus}, {paprika_pulver}, {spisskummen}, og {hvitlok_pulver} i en bolle. Smak til med salt og pepper.",
-          "Vend inn {kylling} og la marinere i opptil 2 timer i kjøleskapet."
+          "Vend inn {kylling} i tynne strimler, og la marinere i opptil 2 timer i kjøleskapet."
         ]
       },
       {
         "name": "Dressing",
         "instructions": [
           "Rør sammen {romme}, {sitron_dressing}, {olivenolje_dressing}, {hvitlok_pulver_dressing} og {urter}.",
-          "Smak til med {salt_dressing} og {pepper_dressing}."
+          "Smak til med salt og pepper."
         ]
       },
       {
@@ -3963,12 +3961,62 @@
           "Varm {olje_stek} i en stor stekepanne på middels varme.",
           "Stek {lok_gul}, {paprika_rod} og {paprika_gul} i 5–7 minutter til mykt og lett karamellisert. Ta ut og sett til side.",
           "I samme panne, stek {kylling} på middels/høy varme i 5–7 minutter til strimlene er gylne og gjennomstekte.",
-          "Overfør grønnsakene og kyllingen i en bolle sammen med {hjertesalt} og {varlok}.",
+          "Overfør grønnsakene og kyllingen i en bolle sammen med {hjertesalat} og {varlok}.",
           "Varm {pita} i ovn på 180 grader i 5-6 minutter.",
           "Server sammen med dressingen."
         ]
       }
     ]
+  },
+  {
+    "id": 38,
+    "name": "Ovnsbakt kyllinglår",
+    "description": "En enkel og smakfull hverdagsmiddag med ovnsbakte kyllinglår, kikerter og søtpotet – servert med sprøstekt brokkolini.",
+    "servings": 2,
+    "prepTime": "40 min",
+    "ingredients": {
+      "Hovedrett": [
+        { "id": "kyllinglar", "ingredient": "Kyllinglår", "amount": 2, "unit": "stk" },
+        { "id": "kikerter", "ingredient": "Kikerter", "amount": 1, "unit": "boks" },
+        { "id": "sotpotet", "ingredient": "Søtpotet", "amount": 0.5, "unit": "stk" },
+        { "id": "rodlok", "ingredient": "Rødløk", "amount": 2, "unit": "stk" },
+        { "id": "hvitlok", "ingredient": "Hvitløk", "amount": 4, "unit": "fedd" },
+        { "id": "olje", "ingredient": "Olivenolje", "amount": 2, "unit": "ss" },
+        { "id": "paprika", "ingredient": "Paprikapulver", "amount": 1, "unit": "ts" },
+        { "id": "timian", "ingredient": "Tørket timian", "amount": 1, "unit": "ts" }
+      ],
+      "Tilbehør": [
+        { "id": "brokkolini", "ingredient": "Brokkolini", "amount": 150, "unit": "g" },
+        { "id": "stekolje", "ingredient": "Olivenolje", "amount": 2, "unit": "ss" }
+      ]
+    },
+    "instructions": [
+      {
+        "name": "Tilberedning",
+        "instructions": [
+          "Sett ovnen på 200°C.",
+          "Skjær {sotpotet} i skiver og del {rodlok} i båter.",
+          "Skyll {kikerter} og legg alt sammen med {kyllinglar} og {hvitlok} i en ildfast form.",
+          "Dryss over {olje}, {paprika} og {timian}, og ønsket mengde salt og pepper.",
+          "Vend alt godt sammen slik at grønnsakene og kyllingen blir jevnt krydret."
+        ]
+      },
+      {
+        "name": "Steking",
+        "instructions": [
+          "Sett formen midt i ovnen, og stek i 25 minutter til kyllingen er gjennomstekt og grønnsakene møre.",
+          "Mens formen bakes i ovnen, varm {stekolje} i en panne på medium-høy varme.",
+          "Stek {brokkolini} i 7–10 minutter til den er sprø og lett karamellisert."
+        ]
+      },
+      {
+        "name": "Servering",
+        "instructions": [
+          "Server de ovnsbakte kyllinglårene med grønnsaker og kikerter, toppet med nystekt {brokkolini}."
+        ]
+      }
+    ]
   }
+
 ]
 
