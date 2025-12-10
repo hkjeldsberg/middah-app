@@ -2771,6 +2771,12 @@
           "unit": "stk"
         },
         {
+          "id": "paprika",
+          "ingredient": "Paprika",
+          "amount": 1,
+          "unit": "stk"
+        },
+        {
           "id": "lok",
           "ingredient": "Gul løk",
           "amount": 1,
@@ -2864,7 +2870,7 @@
         "instructions": [
           "Skjær {kyllingfilet} i store terninger.",
           "Skyll og hakk {varlok}, både den hvite og grønne delen.",
-          "Finhakk {lok}, {chili} (fjern frø for mindre styrke), {ingefar} og {hvitlok}.",
+          "Finhakk {lok}, {paprika}, {chili} (fjern frø for mindre styrke), {ingefar} og {hvitlok}.",
           "Grovhakk {koriander} og sett til side til servering."
         ]
       },
@@ -2873,7 +2879,7 @@
         "instructions": [
           "Varm {olje} i en stor gryte eller dyp stekepanne på middels til høy varme.",
           "Tilsett kyllingterningene og stek til de er gylne på alle sider, ca. 5-6 minutter. Ta ut og sett til side.",
-          "I samme panne, tilsett løk, vårløk (spar litt av den grønne delen til pynt), chili, ingefær og hvitløk.",
+          "I samme panne, tilsett løk, paprika, vårløk (spar litt av den grønne delen til pynt), chili, ingefær og hvitløk.",
           "Stek til løken er myk og gjennomsiktig, ca. 3-4 minutter.",
           "Tilsett {tomatpure}, {garammasala}, {tandoorimasala} og {gurkemeie}. Stek i 1-2 minutter til krydderet dufter.",
           "Ha kyllingen tilbake i pannen og rør godt så kjøttet blir dekket av krydderene.",
