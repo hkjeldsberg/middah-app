@@ -1,0 +1,428 @@
+$bg-light: #f5efdc;
+$bg: #fffaee;
+$accent: #c2b39d;
+$accent-dark: #9e8c76;
+$text: #333;
+$saved-green: #7aab7a;
+$skip-red: #c07070;
+
+.container {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.4rem;
+  color: $text;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.navBtn {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.2rem;
+  background-color: $accent;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $accent-dark;
+  }
+
+  &.active {
+    background-color: $accent-dark;
+    font-weight: bold;
+  }
+}
+
+.subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #aaa;
+
+  .emptyIcon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.plannerTable {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.dayRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: $bg-light;
+  border-radius: 10px;
+  padding: 0.85rem 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  transition: opacity 0.2s;
+
+  &.skipped {
+    opacity: 0.5;
+    background: #eee;
+  }
+
+  &.saved {
+    border-left: 4px solid $saved-green;
+  }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.dayLabel {
+  min-width: 90px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: $accent-dark;
+}
+
+.mealTitle {
+  flex: 1;
+  font-size: 1rem;
+  color: $text;
+
+  .skippedText {
+    color: #aaa;
+    font-style: italic;
+  }
+
+  .emptyMeal {
+    color: #ccc;
+    font-style: italic;
+  }
+}
+
+.loadingDots {
+  color: $accent-dark;
+  font-style: italic;
+
+  span {
+    display: inline-block;
+    animation: blink 1.2s infinite steps(3, end);
+  }
+}
+
+@keyframes blink {
+  0% { content: "."; opacity: 0.2; }
+  33% { opacity: 0.6; }
+  66% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.actionBtn {
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  white-space: nowrap;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+    transform: none;
+  }
+}
+
+.saveBtn {
+  background-color: $saved-green;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($saved-green, 8%);
+  }
+}
+
+.recipeBtn {
+  background-color: #8c7eb5;
+  color: white;
+
+  &:hover {
+    background-color: darken(#8c7eb5, 8%);
+  }
+}
+
+.viewBtn {
+  background-color: #7a9fbf;
+  color: white;
+
+  &:hover {
+    background-color: darken(#7a9fbf, 8%);
+  }
+}
+
+.regenBtn {
+  background-color: $accent;
+  color: white;
+
+  &:hover {
+    background-color: $accent-dark;
+  }
+}
+
+.skipBtn {
+  background-color: #ddd;
+  color: #777;
+
+  &:hover {
+    background-color: $skip-red;
+    color: white;
+  }
+}
+
+.swapBtn {
+  background-color: #b3c4d9;
+  color: white;
+
+  &:hover {
+    background-color: #8aa3c0;
+  }
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.generateBtn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: $accent-dark;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+
+  &:hover:not(:disabled) {
+    background-color: darken($accent-dark, 8%);
+    transform: translateY(-2px);
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+.shoppingBtn {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.75rem;
+  background-color: #5a8a5a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: darken(#5a8a5a, 8%);
+    transform: translateY(-2px);
+  }
+}
+
+.hasRecipe {
+  border-left: 4px solid #8c7eb5;
+}
+
+.clickable {
+  cursor: pointer;
+  &:hover span:first-child {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.recipeTag {
+  display: inline-block;
+  margin-left: 0.6rem;
+  font-size: 0.75rem;
+  color: #8c7eb5;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+.notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $saved-green;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-size: 0.9rem;
+  animation: fadeInUp 0.3s ease;
+  z-index: 100;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+// Swap modal
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.modal {
+  background: $bg;
+  border-radius: 12px;
+  padding: 2rem;
+  min-width: 320px;
+  max-width: 440px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: $text;
+  }
+}
+
+.swapList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.swapOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  background: $bg-light;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s;
+
+  &:hover {
+    background-color: darken($bg-light, 5%);
+  }
+}
+
+.swapDay {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: $accent-dark;
+}
+
+.swapMeal {
+  font-size: 0.9rem;
+  color: $text;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cancelBtn {
+  width: 100%;
+  padding: 0.6rem;
+  background: #ddd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: #555;
+  transition: background-color 0.15s;
+
+  &:hover {
+    background: #ccc;
+  }
+}
+
+.shoppingSection {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+
+  strong {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #555;
+  }
+
+  em {
+    color: #888;
+    font-size: 0.8rem;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 1.2rem;
+    margin: 0.2rem 0 0.5rem;
+    li { margin-bottom: 0.15rem; }
+  }
+}

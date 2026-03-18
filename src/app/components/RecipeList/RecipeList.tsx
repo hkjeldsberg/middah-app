@@ -74,6 +74,15 @@ export const RecipeList = () => {
         <>
             <h1 id="title" className={`${styles.title} ${lora.className}`}>️Middah.</h1>
 
+            <div className={styles.nav}>
+                <button className={`${styles.navBtn} ${styles.active}`} onClick={() => router.push('/')}>
+                    🍳 Oppskrifter
+                </button>
+                <button className={styles.navBtn} onClick={() => router.push('/meal-planner')}>
+                    📅 Ukemeny
+                </button>
+            </div>
+
             <div className={styles.recipeGrid}>
                 {recipesToShow.map((recipe) => (
                     <div

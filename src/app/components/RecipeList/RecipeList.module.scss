@@ -1,6 +1,33 @@
 $bg-light: #f5efdc;
 $bg: #fffaee;
 
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.navBtn {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.2rem;
+  background-color: #c2b39d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #9e8c76;
+  }
+
+  &.active {
+    background-color: #9e8c76;
+    font-weight: bold;
+  }
+}
 
 .title {
   font-size: 2rem;
